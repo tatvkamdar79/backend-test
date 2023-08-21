@@ -12,12 +12,10 @@ exports.getProductBySearch = async (req, res) => {
   }
   const searchString = req.query.searchQuery;
   const searchResult = await Product.find({
-    // $or: [
-    // {
-    tags: { $regex: searchString, $options: "i" },
-    // },
-    // { company: { $regex: searchString, $options: "i" } },
-    // ],
+    $or: [
+      { tags: { $regex: searchString, $options: "i" } },
+      { productTitle: { $regex: searchString, $options: "i" } },
+    ],
   });
   res.json(searchResult);
 };
