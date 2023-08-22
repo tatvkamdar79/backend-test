@@ -14,6 +14,10 @@ const userRoutes = require("./routes/userRoutes");
 const productRoutes = require("./routes/productRoutes");
 const qrCodeRoutes = require("./routes/qrCodeRoutes");
 
+app.get("/", (req, res) => {
+  res.json({ live: true });
+});
+
 app.use("/user", userRoutes);
 app.use("/product", productRoutes);
 app.use("/qr", qrCodeRoutes);
