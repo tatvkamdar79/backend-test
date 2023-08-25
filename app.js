@@ -13,6 +13,7 @@ app.use(cors());
 const userRoutes = require("./routes/userRoutes");
 const productRoutes = require("./routes/productRoutes");
 const qrCodeRoutes = require("./routes/qrCodeRoutes");
+const companyRoutes = require("./routes/companyRoutes");
 
 app.get("/", (req, res) => {
   res.json({ live: true });
@@ -21,6 +22,7 @@ app.get("/", (req, res) => {
 app.use("/user", userRoutes);
 app.use("/product", productRoutes);
 app.use("/qr", qrCodeRoutes);
+app.use("/company", companyRoutes);
 
 // Start the server
 module.exports = app;
