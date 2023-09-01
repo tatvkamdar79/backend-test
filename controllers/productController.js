@@ -1,5 +1,5 @@
 const Product = require("../models/ProductModel");
-const { sendSuccess } = require("../utils/response");
+const { sendSuccess, sendError } = require("../utils/response");
 
 exports.getAllProducts = async (req, res) => {
   const products = await Product.find();
@@ -17,6 +17,7 @@ exports.getProductBySearch = async (req, res) => {
     $or: [
       { tags: { $regex: searchString, $options: "i" } },
       { productTitle: { $regex: searchString, $options: "i" } },
+      { company: { $regex: searchString, $options: "i" } },
     ],
   });
 
@@ -30,4 +31,23 @@ exports.getProductBySearch = async (req, res) => {
     searchResult,
     time: parseHrtimeToSeconds(endTime),
   });
+};
+
+exports.addProduct = async (req, res) => {
+  if (!req.body) {
+    return sendError(res, "Request Body Empty");
+  }
+  for (let item of req.body) {
+    console.log(item);
+    let product = new Product(item);
+    console.log(product);
+    try {
+      let saved = await product.save();
+      console.log("saved", saved);
+    } catch (error) {
+      console.log(error);
+      return sendError(res, "Failed to Save Product");
+    }
+  }
+  sendSuccess(res, "Products Added Successfully");
 };
