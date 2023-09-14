@@ -14,6 +14,7 @@ const userRoutes = require("./routes/userRoutes");
 const productRoutes = require("./routes/productRoutes");
 const qrCodeRoutes = require("./routes/qrCodeRoutes");
 const companyRoutes = require("./routes/companyRoutes");
+const adminRoutes = require("./routes/adminRoutes");
 
 app.get("/", (req, res) => {
   res.json({ live: true });
@@ -23,6 +24,7 @@ app.use("/user", userRoutes);
 app.use("/product", productRoutes);
 app.use("/qr", qrCodeRoutes);
 app.use("/company", companyRoutes);
+app.use("/admin", adminRoutes);
 
 // Start the server
 module.exports = app;

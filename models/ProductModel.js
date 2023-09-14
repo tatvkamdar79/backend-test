@@ -39,7 +39,7 @@ const ProductSchema = new Schema({
     },
   ],
   variant: {
-    // size: { type: String, trim: true },
+    size: { type: String, trim: true },
     color: { type: String, trim: true },
     material: { type: String, trim: true },
     style: { type: String, trim: true },
