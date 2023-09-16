@@ -7,9 +7,12 @@ const deepCompare = (obj1, obj2) => {
     const keys1 = Object.keys(obj1);
     const keys2 = Object.keys(obj2);
 
-    // Check if the number of keys are the same
-    if (keys1.length !== keys2.length) {
-      return false;
+    for (let key of keys2) {
+      if (key === "__v") continue;
+      if (!keys1.includes(key)) {
+        console.log("KEYS DIFF", key);
+        return false;
+      }
     }
 
     // Iterate through the keys
@@ -42,30 +45,46 @@ const deepCompare = (obj1, obj2) => {
 exports.processJsonData = async (jsonData) => {
   const log = []; // To keep track of any skipped rows
 
-  for (const row of jsonData) {
+  for (const [index, row] of jsonData.entries()) {
     const productId = row._id;
 
     try {
       const product = await Product.findById(productId);
 
       if (!product) {
-        log.push(`Product with ID ${productId} not found.`);
+        log.push(
+          `Product in row ${index + 1} with model number ${
+            product.modelNumber
+          } not found.`
+        );
         continue; // Skip this row
       }
 
       // Perform deep comparison
       if (!deepCompare(row, product.toObject())) {
         // If there is a difference, update the product
-        console.log(product.toObject());
-        console.count("Found Difference");
+        // console.log(product.toObject());
+        console.log(
+          `Found Difference for row ${index + 1} - ${product.modelNumber}`
+        );
+        log.push(
+          `Found Difference for row ${index + 1} - ${product.modelNumber}`
+        );
         product.set(row);
         await product.save();
-      } else {
-        console.count("Same");
       }
     } catch (error) {
-      console.error(`Error processing product with ID ${productId}:`, error);
-      log.push(`Error processing product with ID ${productId}`);
+      console.error(
+        `Error processing product in row ${index + 1} with modelNumber ${
+          row.modelNumber
+        }:`,
+        error
+      );
+      log.push(
+        `Error processing product with row ${index + 1} and modelNumber ${
+          row.modelNumber
+        }`
+      );
     }
   }
 

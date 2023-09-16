@@ -5,6 +5,7 @@ const csv = require("csv-parser");
 
 const Product = require("../models/ProductModel");
 const { processJsonData } = require("../helpers/adminCsvFileHelper");
+const { default: mongoose } = require("mongoose");
 
 exports.getSampleCSV = async (req, res) => {
   console.log(__dirname);
@@ -17,7 +18,7 @@ exports.getSampleCSV = async (req, res) => {
 exports.getFullProductsDatabaseCSV = async (req, res) => {
   const allProducts = await Product.find();
   const flattenedProducts = allProducts.map((product) => {
-    return {
+    const finalProduct = {
       _id: product._id,
       company: product.company,
       productCode: product.productCode,
@@ -33,7 +34,14 @@ exports.getFullProductsDatabaseCSV = async (req, res) => {
       cost: product.cost,
       mrp: product.mrp,
       additionalIdentifier: product.additionalIdentifier,
+      additionalIdentifier2: product.additionalIdentifier2,
     };
+    const tagsLength = product.tags.length;
+    // console.log(tagsLength);
+    for (let i = 0; i < tagsLength; i++) {
+      finalProduct[`tags[${i}]`] = product.tags[i];
+    }
+    return finalProduct;
   });
   const fields = [
     "_id",
@@ -51,6 +59,12 @@ exports.getFullProductsDatabaseCSV = async (req, res) => {
     "cost",
     "mrp",
     "additionalIdentifier",
+    "additionalIdentifier2",
+    "tags[0]",
+    "tags[1]",
+    "tags[2]",
+    "tags[3]",
+    "tags[4]",
   ];
 
   const csv = json2csv(flattenedProducts, { fields });
@@ -60,16 +74,22 @@ exports.getFullProductsDatabaseCSV = async (req, res) => {
 
   fs.writeFileSync(filePath, csv);
 
-  res.sendFile(filePath, async () => {
-    await setTimeout(() => {}, 5000);
-    fs.unlinkSync(filePath);
-  });
+  res.setHeader(
+    "Content-Disposition",
+    `attachment; filename=full_database.csv`
+  );
+  res.setHeader("Content-Type", "text/csv");
+
+  // Stream the file to the response
+  fs.createReadStream(filePath).pipe(res);
 };
 
 exports.updateProductsDatabaseCSV = async (req, res) => {
   if (!req.file) {
     return res.json({});
   }
+  console.log(req.file);
+  // res.json({});
 
   const filePath = req.file.path;
 
@@ -79,7 +99,7 @@ exports.updateProductsDatabaseCSV = async (req, res) => {
     .pipe(csv())
     .on("data", (row) => {
       const product = {
-        _id: row._id,
+        _id: new mongoose.Types.ObjectId(row._id),
         variant: {},
         company: row.company,
         productCode: row.productCode,
@@ -91,7 +111,29 @@ exports.updateProductsDatabaseCSV = async (req, res) => {
         cost: row.cost,
         mrp: row.mrp,
         additionalIdentifier: row.additionalIdentifier,
+        additionalIdentifier2: row.additionalIdentifier2,
       };
+
+      const tags = [];
+      for (let i = 0; i < 5; i++) {
+        if (row[`tags[${i}]`]) {
+          tags.push(row[`tags[${i}]`]);
+        }
+      }
+      // console.log(tags);
+      product.tags = tags;
+
+      if (!product._id || !product.company || !product.modelNumber) {
+        return;
+      }
+
+      const mrp = parseFloat(product.mrp);
+      if (isNaN(mrp)) {
+        // LOG ERROR
+        return;
+      } else {
+        product.mrp = mrp;
+      }
       if (row["variant.color"] && String(row["variant.color"]).trim() != "") {
         product.variant["color"] = String(row["variant.color"]).trim();
       }
@@ -107,16 +149,26 @@ exports.updateProductsDatabaseCSV = async (req, res) => {
       ) {
         product.variant["material"] = String(row["variant.material"]).trim();
       }
+      if (
+        !row["variant.color"] &&
+        !row["variant.size"] &&
+        !row["variant.style"] &&
+        !row["variant.material"]
+      ) {
+        delete product.variant;
+      }
       jsonData.push(product);
     })
     .on("end", async () => {
       console.log("CSV file successfully processed");
+      // console.log(jsonData);
+      console.log("Starting CSV file to Database updation");
       const logs = await processJsonData(jsonData);
-
-      // Delete the CSV file
-      fs.unlinkSync(filePath);
+      console.log(logs);
 
       // Send the JSON data as response
       res.json({ data: logs });
+
+      fs.unlinkSync(filePath);
     });
 };
