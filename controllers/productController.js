@@ -12,14 +12,27 @@ exports.getProductBySearch = async (req, res) => {
     return res.json([]);
   }
   const searchString = req.query.searchQuery;
+  let searchResult;
   let startTime = process.hrtime();
-  const searchResult = await Product.find({
-    $or: [
-      { tags: { $regex: searchString, $options: "i" } },
-      { productTitle: { $regex: searchString, $options: "i" } },
-      { company: { $regex: searchString, $options: "i" } },
-    ],
-  });
+  if (searchString.includes("|")) {
+    const separatedSearchString = searchString.split("|");
+    if (separatedSearchString.length === 2) {
+      const company = searchString.split("|")[0];
+      const modelNumber = searchString.split("|")[1];
+      searchResult = await Product.find({
+        company: company,
+        modelNumber: modelNumber,
+      });
+    }
+  } else {
+    searchResult = await Product.find({
+      $or: [
+        { tags: { $regex: searchString, $options: "i" } },
+        { productTitle: { $regex: searchString, $options: "i" } },
+        { company: { $regex: searchString, $options: "i" } },
+      ],
+    });
+  }
 
   let endTime = process.hrtime(startTime);
   function parseHrtimeToSeconds(hrtime) {

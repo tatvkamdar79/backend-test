@@ -6,6 +6,7 @@ const csv = require("csv-parser");
 const Product = require("../models/ProductModel");
 const { processJsonData } = require("../helpers/adminCsvFileHelper");
 const { default: mongoose } = require("mongoose");
+const { sendSuccess, sendError } = require("../utils/response");
 
 exports.getSampleCSV = async (req, res) => {
   console.log(__dirname);
@@ -85,90 +86,175 @@ exports.getFullProductsDatabaseCSV = async (req, res) => {
 };
 
 exports.updateProductsDatabaseCSV = async (req, res) => {
-  if (!req.file) {
-    return res.json({});
+  console.log(req.body);
+  if (!req.body) {
+    sendSuccess(res, "No file sent");
   }
-  console.log(req.file);
-  // res.json({});
+  const errorLogs = [];
+  const rows = req.body;
+  for (let [index, row] of rows.entries()) {
+    const product = {
+      _id: row._id ? new mongoose.Types.ObjectId(row._id) : undefined,
+      company: row.company ? row.company.trim() : undefined,
+      productCode: row.productCode ? row.productCode.trim() : undefined,
+      productTitle: row.productTitle ? row.productTitle.trim() : undefined,
+      productType: row.productType ? row.productType.trim() : undefined,
+      modelNumber: row.modelNumber ? row.modelNumber.trim() : undefined,
+      productCategory: row.productCategory
+        ? row.productCategory.trim()
+        : undefined,
+      hsn: row.hsn ? row.hsn.trim() : undefined,
+      cost: row.cost,
+      mrp: row.mrp ? row.mrp : undefined,
+      additionalIdentifier: row.additionalIdentifier
+        ? row.additionalIdentifier.trim()
+        : undefined,
+      additionalIdentifier2: row.additionalIdentifier2
+        ? row.additionalIdentifier2.trim()
+        : undefined,
+      variant: {},
+    };
 
-  const filePath = req.file.path;
+    const mandatoryFields = [
+      "_id",
+      "company",
+      "productTitle",
+      "modelNumber",
+      "hsn",
+      "mrp",
+    ];
 
-  const jsonData = [];
+    let missingFields = [];
+    for (const mandatoryField of mandatoryFields) {
+      if (product[mandatoryField] === undefined) {
+        missingFields.push(mandatoryField);
+      }
+    }
+    if (missingFields.length > 0) {
+      errorLogs.push(`${missingFields.join()} missing in row ${index}`);
+      continue;
+    }
 
-  fs.createReadStream(filePath)
-    .pipe(csv())
-    .on("data", (row) => {
-      const product = {
-        _id: new mongoose.Types.ObjectId(row._id),
-        variant: {},
-        company: row.company,
-        productCode: row.productCode,
-        productTitle: row.productTitle,
-        productType: row.productType,
-        modelNumber: row.modelNumber,
-        productCategory: row.productCategory,
-        hsn: row.hsn,
-        cost: row.cost,
-        mrp: row.mrp,
-        additionalIdentifier: row.additionalIdentifier,
-        additionalIdentifier2: row.additionalIdentifier2,
-      };
+    const tags = [];
+    for (let i = 0; i < 5; i++) {
+      if (row[`tags[${i}]`]) {
+        tags.push(row[`tags[${i}]`].trim());
+      }
+    }
+    // console.log(tags);
+    product.tags = tags;
 
-      const tags = [];
-      for (let i = 0; i < 5; i++) {
-        if (row[`tags[${i}]`]) {
-          tags.push(row[`tags[${i}]`]);
-        }
-      }
-      // console.log(tags);
-      product.tags = tags;
+    const mrp = parseFloat(product.mrp);
+    if (isNaN(mrp)) {
+      errorLogs.push(`Invalid mrp in row ${index + 1}`);
+    } else {
+      product.mrp = mrp;
+    }
+    // if (row["variant.color"] && String(row["variant.color"]).trim() != "") {
+    //   product.variant["color"] = String(row["variant.color"]).trim();
+    // }
+    // if (row["variant.size"] && String(row["variant.size"]).trim() != "") {
+    //   product.variant["size"] = String(row["variant.size"]).trim();
+    // }
+    // if (row["variant.style"] && String(row["variant.style"]).trim() != "") {
+    //   product.variant["style"] = String(row["variant.style"]).trim();
+    // }
+    // if (
+    //   row["variant.material"] &&
+    //   String(row["variant.material"]).trim() != ""
+    // ) {
+    //   product.variant["material"] = String(row["variant.material"]).trim();
+    // }
+    // if (
+    //   !row["variant.color"] &&
+    //   !row["variant.size"] &&
+    //   !row["variant.style"] &&
+    //   !row["variant.material"]
+    // ) {
+    //   delete product.variant;
+    // }
+    // console.log(product, index);
+  }
+  res.json({});
 
-      if (!product._id || !product.company || !product.modelNumber) {
-        return;
-      }
+  // const filePath = req.file.path;
 
-      const mrp = parseFloat(product.mrp);
-      if (isNaN(mrp)) {
-        // LOG ERROR
-        return;
-      } else {
-        product.mrp = mrp;
-      }
-      if (row["variant.color"] && String(row["variant.color"]).trim() != "") {
-        product.variant["color"] = String(row["variant.color"]).trim();
-      }
-      if (row["variant.size"] && String(row["variant.size"]).trim() != "") {
-        product.variant["size"] = String(row["variant.size"]).trim();
-      }
-      if (row["variant.style"] && String(row["variant.style"]).trim() != "") {
-        product.variant["style"] = String(row["variant.style"]).trim();
-      }
-      if (
-        row["variant.material"] &&
-        String(row["variant.material"]).trim() != ""
-      ) {
-        product.variant["material"] = String(row["variant.material"]).trim();
-      }
-      if (
-        !row["variant.color"] &&
-        !row["variant.size"] &&
-        !row["variant.style"] &&
-        !row["variant.material"]
-      ) {
-        delete product.variant;
-      }
-      jsonData.push(product);
-    })
-    .on("end", async () => {
-      console.log("CSV file successfully processed");
-      // console.log(jsonData);
-      console.log("Starting CSV file to Database updation");
-      const logs = await processJsonData(jsonData);
-      console.log(logs);
+  // const jsonData = [];
 
-      // Send the JSON data as response
-      res.json({ data: logs });
+  // fs.createReadStream(filePath)
+  //   .pipe(csv())
+  //   .on("data", (row) => {
+  //     const product = {
+  //       _id: new mongoose.Types.ObjectId(row._id),
+  //       variant: {},
+  //       company: row.company.trim(),
+  //       productCode: row.productCode.trim(),
+  //       productTitle: row.productTitle.trim(),
+  //       productType: row.productType.trim(),
+  //       modelNumber: row.modelNumber.trim(),
+  //       productCategory: row.productCategory.trim(),
+  //       hsn: row.hsn.trim(),
+  //       cost: row.cost,
+  //       mrp: row.mrp,
+  //       additionalIdentifier: row.additionalIdentifier.trim(),
+  //       additionalIdentifier2: row.additionalIdentifier2.trim(),
+  //     };
 
-      fs.unlinkSync(filePath);
-    });
+  //     const tags = [];
+  //     for (let i = 0; i < 5; i++) {
+  //       if (row[`tags[${i}]`]) {
+  //         tags.push(row[`tags[${i}]`].trim());
+  //       }
+  //     }
+  //     // console.log(tags);
+  //     product.tags = tags;
+
+  //     if (!product._id || !product.company || !product.modelNumber) {
+  //       return;
+  //     }
+
+  //     const mrp = parseFloat(product.mrp);
+  //     if (isNaN(mrp)) {
+  //       // LOG ERROR
+  //       return;
+  //     } else {
+  //       product.mrp = mrp;
+  //     }
+  //     if (row["variant.color"] && String(row["variant.color"]).trim() != "") {
+  //       product.variant["color"] = String(row["variant.color"]).trim();
+  //     }
+  //     if (row["variant.size"] && String(row["variant.size"]).trim() != "") {
+  //       product.variant["size"] = String(row["variant.size"]).trim();
+  //     }
+  //     if (row["variant.style"] && String(row["variant.style"]).trim() != "") {
+  //       product.variant["style"] = String(row["variant.style"]).trim();
+  //     }
+  //     if (
+  //       row["variant.material"] &&
+  //       String(row["variant.material"]).trim() != ""
+  //     ) {
+  //       product.variant["material"] = String(row["variant.material"]).trim();
+  //     }
+  //     if (
+  //       !row["variant.color"] &&
+  //       !row["variant.size"] &&
+  //       !row["variant.style"] &&
+  //       !row["variant.material"]
+  //     ) {
+  //       delete product.variant;
+  //     }
+  //     jsonData.push(product);
+  //   })
+  //   .on("end", async () => {
+  //     console.log("CSV file successfully processed");
+  //     // console.log(jsonData);
+  //     console.log("Starting CSV file to Database updation");
+  //     const logs = await processJsonData(jsonData);
+  //     console.log(logs);
+
+  //     // Send the JSON data as response
+  //     res.json({ data: logs });
+
+  //     fs.unlinkSync(filePath);
+  //   });
 };

@@ -3,6 +3,10 @@ const router = express.Router();
 const companyController = require("../controllers/companyController");
 
 router.get("/getAllCompanies", companyController.getAllCompanies);
+router.get(
+  "/getAllCompaniesModelNumbers",
+  companyController.getAllCompaniesModelNumbers
+);
 router.post("/addCompany", companyController.addCompany);
 router.post("/updateCompanyName", companyController.updateCompanyName);
 router.post("/deleteCompany", companyController.deleteCompany);

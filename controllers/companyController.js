@@ -13,6 +13,36 @@ exports.getAllCompanies = async (req, res) => {
   }
 };
 
+exports.getAllCompaniesModelNumbers = async (req, res) => {
+  let modelNumberList = null;
+  try {
+    modelNumberList = await Product.aggregate([
+      {
+        $group: {
+          _id: "$modelNumber",
+          companies: { $addToSet: "$company" },
+          count: { $sum: 1 },
+        },
+      },
+      {
+        $project: {
+          _id: 0,
+          modelNumber: "$_id",
+          companies: 1,
+          count: 1,
+        },
+      },
+    ]);
+    return sendSuccess(
+      res,
+      "Fetched All Companies Model Numbers Successfully",
+      modelNumberList
+    );
+  } catch (err) {
+    return sendSuccess(res, "Some error occured", err);
+  }
+};
+
 exports.addCompany = async (req, res) => {
   console.log("Adding Company");
   const { companyName } = req.body;
