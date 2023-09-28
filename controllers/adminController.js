@@ -86,10 +86,11 @@ exports.getFullProductsDatabaseCSV = async (req, res) => {
 };
 
 exports.updateProductsDatabaseCSV = async (req, res) => {
-  console.log(req.body);
   if (!req.body) {
     sendSuccess(res, "No file sent");
   }
+  const jsonData = {};
+  const _ids = [];
   const errorLogs = [];
   const rows = req.body;
   for (let [index, row] of rows.entries()) {
@@ -131,8 +132,10 @@ exports.updateProductsDatabaseCSV = async (req, res) => {
       }
     }
     if (missingFields.length > 0) {
-      errorLogs.push(`${missingFields.join()} missing in row ${index}`);
+      errorLogs.push(`${missingFields.join()} missing in row ${index + 1}`);
       continue;
+    } else {
+      errorLogs.push("Success for row " + (index + 1));
     }
 
     const tags = [];
@@ -150,32 +153,59 @@ exports.updateProductsDatabaseCSV = async (req, res) => {
     } else {
       product.mrp = mrp;
     }
-    // if (row["variant.color"] && String(row["variant.color"]).trim() != "") {
-    //   product.variant["color"] = String(row["variant.color"]).trim();
-    // }
-    // if (row["variant.size"] && String(row["variant.size"]).trim() != "") {
-    //   product.variant["size"] = String(row["variant.size"]).trim();
-    // }
-    // if (row["variant.style"] && String(row["variant.style"]).trim() != "") {
-    //   product.variant["style"] = String(row["variant.style"]).trim();
-    // }
-    // if (
-    //   row["variant.material"] &&
-    //   String(row["variant.material"]).trim() != ""
-    // ) {
-    //   product.variant["material"] = String(row["variant.material"]).trim();
-    // }
-    // if (
-    //   !row["variant.color"] &&
-    //   !row["variant.size"] &&
-    //   !row["variant.style"] &&
-    //   !row["variant.material"]
-    // ) {
-    //   delete product.variant;
-    // }
+    if (row["variant.color"] && String(row["variant.color"]).trim() != "") {
+      product.variant["color"] = String(row["variant.color"]).trim();
+    }
+    if (row["variant.size"] && String(row["variant.size"]).trim() != "") {
+      product.variant["size"] = String(row["variant.size"]).trim();
+    }
+    if (row["variant.style"] && String(row["variant.style"]).trim() != "") {
+      product.variant["style"] = String(row["variant.style"]).trim();
+    }
+    if (
+      row["variant.material"] &&
+      String(row["variant.material"]).trim() != ""
+    ) {
+      product.variant["material"] = String(row["variant.material"]).trim();
+    }
+    if (
+      !row["variant.color"] &&
+      !row["variant.size"] &&
+      !row["variant.style"] &&
+      !row["variant.material"]
+    ) {
+      delete product.variant;
+    }
+    _ids.push(product._id);
     // console.log(product, index);
+    // jsonData[]
   }
-  res.json({});
+  // console.log(_ids);
+
+  const result = await Product.aggregate([
+    {
+      $match: {
+        _id: {
+          $in: _ids,
+        },
+      },
+    },
+    {
+      $group: {
+        _id: { $toString: "$_id" },
+        document: { $first: "$$ROOT" },
+      },
+    },
+  ]);
+
+  // console.log("result", result);
+  const dictionary = {};
+
+  result.forEach((group) => {
+    dictionary[group._id] = group.document;
+  });
+  console.log(dictionary);
+  res.json({ errorLogs });
 
   // const filePath = req.file.path;
 

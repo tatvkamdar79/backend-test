@@ -4,8 +4,8 @@ const companyController = require("../controllers/companyController");
 
 router.get("/getAllCompanies", companyController.getAllCompanies);
 router.get(
-  "/getAllCompaniesModelNumbers",
-  companyController.getAllCompaniesModelNumbers
+  "/getAllCompaniesModelNumbersGroups",
+  companyController.getAllCompaniesModelNumbersGroups
 );
 router.post("/addCompany", companyController.addCompany);
 router.post("/updateCompanyName", companyController.updateCompanyName);

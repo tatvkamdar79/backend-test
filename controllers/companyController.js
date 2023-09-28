@@ -13,30 +13,53 @@ exports.getAllCompanies = async (req, res) => {
   }
 };
 
-exports.getAllCompaniesModelNumbers = async (req, res) => {
-  let modelNumberList = null;
+exports.getAllCompaniesModelNumbersGroups = async (req, res) => {
+  let companyModelNumberGroup = null;
   try {
-    modelNumberList = await Product.aggregate([
+    companyModelNumberGroup = await Product.aggregate([
       {
         $group: {
-          _id: "$modelNumber",
-          companies: { $addToSet: "$company" },
-          count: { $sum: 1 },
+          _id: {
+            company: "$company",
+            modelNumber: "$modelNumber",
+            group: "$group",
+          },
+        },
+      },
+      {
+        $group: {
+          _id: {
+            company: "$_id.company",
+            modelNumber: "$_id.modelNumber",
+          },
+          groups: {
+            $push: "$_id.group",
+          },
+        },
+      },
+      {
+        $group: {
+          _id: "$_id.company",
+          modelNumbers: {
+            $push: {
+              modelNumber: "$_id.modelNumber",
+              groups: "$groups",
+            },
+          },
         },
       },
       {
         $project: {
           _id: 0,
-          modelNumber: "$_id",
-          companies: 1,
-          count: 1,
+          company: "$_id",
+          modelNumbers: 1,
         },
       },
     ]);
     return sendSuccess(
       res,
       "Fetched All Companies Model Numbers Successfully",
-      modelNumberList
+      companyModelNumberGroup
     );
   } catch (err) {
     return sendSuccess(res, "Some error occured", err);
