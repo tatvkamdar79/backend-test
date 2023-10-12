@@ -25,11 +25,11 @@ const ProductSchema = new Schema({
     style: { type: String },
   },
   mrp: {
-    type: mongoose.Types.Decimal128,
+    type: Number,
     required: true,
   },
   costPrice: {
-    type: mongoose.Types.Decimal128,
+    type: Number,
   },
   hsn: {
     type: String,
