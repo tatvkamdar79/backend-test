@@ -1,73 +1,54 @@
 const { Schema, model } = require("mongoose");
 const mongoose = require("mongoose");
-
 // Define the schema for the Example model
 const ProductSchema = new Schema({
   company: {
     type: String,
     required: true,
+  },
+  category: {
+    type: String,
     trim: true,
   },
-  productCode: {
+  group: {
     type: String,
     required: true,
-    trim: true,
-  },
-  productTitle: {
-    type: String,
-    required: true,
-    trim: true,
-  },
-  productType: {
-    type: String,
-    required: true,
-    trim: true,
   },
   modelNumber: {
     type: String,
     required: true,
-    trim: true,
   },
-  productCategory: {
-    type: String,
-    trim: true,
-  },
-  tags: [
-    {
-      type: String,
-      trim: true,
-    },
-  ],
   variant: {
-    size: { type: String, trim: true },
-    color: { type: String, trim: true },
-    material: { type: String, trim: true },
-    style: { type: String, trim: true },
+    size: { type: String },
+    color: { type: String },
+    material: { type: String },
+    style: { type: String },
   },
   mrp: {
-    type: Number,
+    type: mongoose.Types.Decimal128,
     required: true,
   },
   costPrice: {
-    type: Number,
+    type: mongoose.Types.Decimal128,
   },
   hsn: {
     type: String,
   },
   additionalIdentifier: {
     type: String,
-    trim: true,
     default: null,
   },
   additionalIdentifier2: {
     type: String,
-    trim: true,
     default: null,
   },
-  description: {
+  billingDescription: {
     type: String,
-    // required: true,
-    trim: true,
+    required: true,
+  },
+  UOM: {
+    type: String,
+    default: null,
   },
 });
 
