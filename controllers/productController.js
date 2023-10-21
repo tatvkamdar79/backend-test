@@ -28,8 +28,10 @@ exports.getProductBySearch = async (req, res) => {
     searchResult = await Product.find({
       $or: [
         // { tags: { $regex: searchString, $options: "i" } },
-        { productTitle: { $regex: searchString, $options: "i" } },
         { company: { $regex: searchString, $options: "i" } },
+        { modelNumber: { $regex: searchString, $options: "i" } },
+        { group: { $regex: searchString, $options: "i" } },
+        { category: { $regex: searchString, $options: "i" } },
       ],
     });
   }

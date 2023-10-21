@@ -28,31 +28,20 @@ exports.getAllCompaniesModelNumbersGroups = async (req, res) => {
       },
       {
         $group: {
-          _id: {
-            company: "$_id.company",
-            modelNumber: "$_id.modelNumber",
-          },
-          groups: {
-            $push: "$_id.group",
-          },
-        },
-      },
-      {
-        $group: {
           _id: "$_id.company",
-          modelNumbers: {
+          products: {
             $push: {
               modelNumber: "$_id.modelNumber",
-              groups: "$groups",
+              group: "$_id.group",
             },
           },
         },
       },
       {
         $project: {
-          _id: 0,
           company: "$_id",
-          modelNumbers: 1,
+          products: 1,
+          _id: 0,
         },
       },
     ]);

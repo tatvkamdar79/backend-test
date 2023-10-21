@@ -50,6 +50,10 @@ const ProductSchema = new Schema({
     type: String,
     default: null,
   },
+  images: {
+    type: Array,
+    default: [],
+  },
 });
 
 // Create the Example model using the schema

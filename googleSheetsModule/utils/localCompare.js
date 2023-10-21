@@ -1,3 +1,5 @@
+const fs = require("fs");
+const path = require("path");
 const GOOGLE_DOWNLOADED_FILES = "GOOGLE_DOWNLOADED_FILES";
 
 module.exports.doesLocalGoogleSheetCopyExist = (fileName) => {

@@ -2,6 +2,7 @@ const User = require("../models/UserModel");
 const { sendResponse } = require("../utils/response");
 
 exports.login = async (req, res) => {
+  console.log("HERE");
   const { username, password } = req.body;
   const user = await User.findOne({ username: username, password: password });
   if (user) {

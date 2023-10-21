@@ -11,7 +11,19 @@ async function addRowToMongo(googleSheets, auth, spreadsheetId, row) {
     console.log("Product saved successfully:", savedProduct);
 
     try {
-      addIdToSheets(googleSheets, auth, spreadsheetId, rowIndex, newProduct);
+      const status = await addIdToSheets(
+        googleSheets,
+        auth,
+        spreadsheetId,
+        rowIndex,
+        newProduct
+      );
+      console.log(status);
+      if (status !== 200) {
+        console.log("Failed while updating _id to sheets");
+        console.log("Deleting Product from Mongo");
+        const response = await savedProduct.deleteOne();
+      }
     } catch (error) {
       console.log("Failed while updating _id to sheets");
       console.log("Deleting Product from Mongo");
@@ -30,32 +42,34 @@ async function addIdToSheets(
   rowIndex,
   product
 ) {
-  await new Promise((resolve) => {
-    googleSheets.spreadsheets.values.update(
-      {
-        auth,
-        spreadsheetId,
-        range: `Sheet1!A${rowIndex}`,
-        valueInputOption: "USER_ENTERED",
-        resource: {
-          values: [[product._id]],
-        },
+  // await new Promise((resolve) => {});
+  const response = await googleSheets.spreadsheets.values.update(
+    {
+      auth,
+      spreadsheetId,
+      range: `Sheet1!A${rowIndex}`,
+      valueInputOption: "USER_ENTERED",
+      resource: {
+        values: [[product._id]],
       },
-      (err, res) => {
-        if (err) console.log("ERROR", err);
-        console.log(`Updated Index for _id for A${rowIndex} - ${product._id}`);
-        setTimeout(resolve, 300); // Resolve the promise after 300 ms
-      }
-    );
-  });
+    }
+    // ,
+    // (err, res) => {
+    //   if (err) console.log("ERROR", err);
+    //   else
+    //     console.log(`Updated Index for _id for A${rowIndex} - ${product._id}`);
+    //   return res;
+    // }
+  );
+  return response.status;
 }
 
 async function updateRowToMongo(row) {
-  console.log("UPDATING");
+  // console.log("UPDATING");
   try {
     const { before, after } = row;
 
-    console.log(before, after);
+    // console.log(before, after);
 
     if (String(before._id) !== String(after._id)) {
       throw new Error("Invalid _id");

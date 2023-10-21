@@ -4,7 +4,7 @@ const Papa = require("papaparse");
 const { doesLocalGoogleSheetCopyExist } = require("./localCompare");
 const downloadSheet = require("../downloadGoogleSheet");
 
-const SKIPPABLE = ["markUp"];
+const SKIPPABLE = ["markUp", "images"];
 const VARIANT_FILEDS = ["size", "color", "style", "material"];
 const NUMBER_FIELDS = ["mrp", "costPrice"];
 const GOOGLE_DOWNLOADED_FILES = "GOOGLE_DOWNLOADED_FILES";

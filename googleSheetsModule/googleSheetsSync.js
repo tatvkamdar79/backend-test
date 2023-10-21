@@ -1,3 +1,4 @@
+var lock = false;
 const fs = require("fs");
 const main = require("./googleSheets");
 const downloadGoogleSheet = require("./downloadGoogleSheet");
@@ -14,6 +15,7 @@ const {
 } = require("./utils/accomodateDifferences");
 const Product = require("../models/ProductModel");
 const { sendError, sendSuccess } = require("../utils/response");
+const path = require("path");
 // const Product = require("./models/ProductModel");
 // const db = require("./config/db");
 
@@ -88,6 +90,7 @@ const googleSheetsSync = async (spreadsheetId) => {
 
   // CHECK MODIFIED ROWS
   if (modifiedRows.length > 0) {
+    console.log("FOUND MODIFIED ROWS");
     updated = true;
     for (const modifiedRow of modifiedRows) {
       await updateRowToMongo(modifiedRow);
@@ -106,15 +109,32 @@ const googleSheetsSync = async (spreadsheetId) => {
 };
 
 exports.syncGS = async (req, res) => {
-  console.log(req.body);
-  if (!req.body || !req.body?.spreadsheetIds) {
-    return sendError(res, "No spreadsheet Id's found");
+  if (lock === true) {
+    console.log("Blocked Request");
+    sendSuccess(res, "Let Earlier Request Complete");
+    return;
+  } else {
+    lock = true;
+    try {
+      console.log(req.body);
+      if (!req.body || !req.body?.spreadsheetIds) {
+        sendError(res, "No spreadsheet Id's found");
+      } else {
+        const spreadSheetIds = req.body.spreadsheetIds;
+        for (const spreadsheetId of spreadSheetIds) {
+          await googleSheetsSync(spreadsheetId);
+        }
+        await new Promise((resolve) => setTimeout(resolve, 2000)); // Wait for 5000ms
+        sendSuccess(res, "released");
+      }
+    } catch (error) {
+      sendError(res, error.message, error);
+    } finally {
+      lock = false;
+    }
   }
-  sendSuccess(res, "Task Scheduled Successfully");
-  const spreadSheetIds = req.body.spreadsheetIds;
-  for (const spreadsheetId of spreadSheetIds) {
-    await googleSheetsSync(spreadsheetId);
-  }
+
+  // sendSuccess(res, "Task Scheduled Successfully");
 };
 
 // let spreadsheetId = "18Yd2ZlHHRp9pUgK7KGiwDmsBBzRiPrWYLlao974Zkjg";

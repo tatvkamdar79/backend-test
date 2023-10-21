@@ -1,0 +1,351 @@
+_id,company,category,group,modelNumber,size,color,costPrice,markUp,mrp,hsn,additionalIdentifier,billingDescription,UOM
+65293da516276a61f95c23a6,Kliq,Handle,Mortise,KQRH 999,Rose,Rosegold Glossy,10000,1.22,12200,8302.42.00,,Kliq-Mortise-Handle-KQRH 999-Rose-Rosegold Glossy,Set
+65293da716276a61f95c23a8,Kliq,Handle,Mortise,KQRH 999,Rose,Rosegold Graphite,2832,1.22,3455,8302.42.00,,Kliq-Mortise-Handle-KQRH 999-Rose-Rosegold Graphite,Set
+65293daa16276a61f95c23aa,Kliq,Handle,Mortise,KQRH 999,Rose,Black Matt,2832,1.22,3455,8302.42.00,,Kliq-Mortise-Handle-KQRH 999-Rose-Black Matt,Set
+65293dab16276a61f95c23ac,Kliq,Handle,Mortise,KQRH 999,Rose,Antic Brass Matt,2832,1.22,3455,8302.42.00,,Kliq-Mortise-Handle-KQRH 999-Rose-Antic Brass Matt,Set
+65293dad16276a61f95c23ae,Kliq,Handle,Mortise,KQRH 999,Rose,SS Matt,2832,1.22,3455,8302.42.00,,Kliq-Mortise-Handle-KQRH 999-Rose-SS Matt,Set
+65293daf16276a61f95c23b0,Kliq,Handle,Mortise,KQRH 5100,Rose,Black Glossy + Rosegold Glossy,3304,1.22,4031,8302.42.00,,Kliq-Mortise-Handle-KQRH 5100-Rose-Black Glossy + Rosegold Glossy,Set
+65293db016276a61f95c23b2,Kliq,Handle,Mortise,KQRH 5100,Rose,Black Matt + Black Glossy,3304,1.22,4031,8302.42.00,,Kliq-Mortise-Handle-KQRH 5100-Rose-Black Matt + Black Glossy,Set
+65293db316276a61f95c23b4,Kliq,Handle,Mortise,KQRH 5100,Rose,Grey Graphite + Antic Brass Matt,3304,1.22,4031,8302.42.00,,Kliq-Mortise-Handle-KQRH 5100-Rose-Grey Graphite + Antic Brass Matt,Set
+65293db516276a61f95c23b6,Kliq,Handle,Mortise,KQRH 5100,Rose,SS Matt + Grey Graphite,3304,1.22,4031,8302.42.00,,Kliq-Mortise-Handle-KQRH 5100-Rose-SS Matt + Grey Graphite,Set
+65293db616276a61f95c23b8,Kliq,Handle,Mortise,KQRH 7100,Rose,Grey Graphite + Rosegold Glossy,3776,1.22,4607,8302.42.00,,Kliq-Mortise-Handle-KQRH 7100-Rose-Grey Graphite + Rosegold Glossy,Set
+65293db816276a61f95c23ba,Kliq,Handle,Mortise,KQRH 7100,Rose,Antic Brass + Gold Glossy (PVD),3776,1.22,4607,8302.42.00,,Kliq-Mortise-Handle-KQRH 7100-Rose-Antic Brass + Gold Glossy (PVD),Set
+65293db916276a61f95c23bc,Kliq,Handle,Mortise,KQRH 7100,Rose,Grey Graphite + Black Glossy,3776,1.22,4607,8302.42.00,,Kliq-Mortise-Handle-KQRH 7100-Rose-Grey Graphite + Black Glossy,Set
+65293dba16276a61f95c23be,Kliq,Handle,Knob,CH 555,40MM,Rosegold Glossy,708,1.49,1055,8302.42.00,CH 555,Kliq-Knob-Handle-CH 555-40MM-Rosegold Glossy,Nos
+65293dbc16276a61f95c23c0,Kliq,Handle,Knob,CH 555,40MM,Rosegold Graphite,708,1.49,1055,8302.42.00,CH 555,Kliq-Knob-Handle-CH 555-40MM-Rosegold Graphite,Nos
+65293dbe16276a61f95c23c2,Kliq,Handle,Knob,CH 555,40MM,Gold Glossy,708,1.49,1055,8302.42.00,CH 555,Kliq-Knob-Handle-CH 555-40MM-Gold Glossy,Nos
+65293dbf16276a61f95c23c4,Kliq,Handle,Knob,CH 555,40MM,Black Glossy,708,1.49,1055,8302.42.00,CH 555,Kliq-Knob-Handle-CH 555-40MM-Black Glossy,Nos
+65293dc116276a61f95c23c6,Kliq,Handle,Knob,CH 555,40MM,Black Matt,708,1.49,1055,8302.42.00,CH 555,Kliq-Knob-Handle-CH 555-40MM-Black Matt,Nos
+65293dc216276a61f95c23c8,Kliq,Handle,Knob,CH 555,65MM,Rosegold Glossy,1121,1.49,1670,8302.42.00,CH 666,Kliq-Knob-Handle-CH 555-65MM-Rosegold Glossy,Nos
+65293dc416276a61f95c23ca,Kliq,Handle,Knob,CH 555,65MM,Rosegold Graphite,1121,1.49,1670,8302.42.00,CH 666,Kliq-Knob-Handle-CH 555-65MM-Rosegold Graphite,Nos
+65293dc516276a61f95c23cc,Kliq,Handle,Knob,CH 555,65MM,Gold Glossy,1121,1.49,1670,8302.42.00,CH 666,Kliq-Knob-Handle-CH 555-65MM-Gold Glossy,Nos
+65293dc616276a61f95c23ce,Kliq,Handle,Knob,CH 555,65MM,Black Glossy,1121,1.49,1670,8302.42.00,CH 666,Kliq-Knob-Handle-CH 555-65MM-Black Glossy,Nos
+65293dc816276a61f95c23d0,Kliq,Handle,Knob,CH 555,65MM,Black Matt,1121,1.49,1670,8302.42.00,CH 666,Kliq-Knob-Handle-CH 555-65MM-Black Matt,Nos
+65293dc916276a61f95c23d2,Kliq,Handle,Knob,CH 777,40MM,Rosegold Glossy,885,1.49,1319,8302.42.00,CH 777,Kliq-Knob-Handle-CH 777-40MM-Rosegold Glossy,Nos
+65293dcb16276a61f95c23d4,Kliq,Handle,Knob,CH 777,40MM,Rosegold Graphite,855,1.49,1274,8302.42.00,CH 777,Kliq-Knob-Handle-CH 777-40MM-Rosegold Graphite,Nos
+65293dcd16276a61f95c23d6,Kliq,Handle,Knob,CH 777,40MM,Gold Glossy,855,1.49,1274,8302.42.00,CH 777,Kliq-Knob-Handle-CH 777-40MM-Gold Glossy,Nos
+65293dce16276a61f95c23d8,Kliq,Handle,Knob,CH 777,40MM,Black Glossy,1298,1.49,1934,8302.42.00,CH 777,Kliq-Knob-Handle-CH 777-40MM-Black Glossy,Nos
+65293dd016276a61f95c23da,Kliq,Handle,Knob,CH 777,40MM,Black Matt,1289,1.49,1921,8302.42.00,CH 777,Kliq-Knob-Handle-CH 777-40MM-Black Matt,Nos
+65293dd116276a61f95c23dc,Kliq,Handle,Knob,CH 777,65MM,Rosegold Glossy,1357,1.49,2022,8302.42.00,CH 888,Kliq-Knob-Handle-CH 777-65MM-Rosegold Glossy,Nos
+65293dd316276a61f95c23de,Kliq,Handle,Knob,CH 777,65MM,Rosegold Graphite,1357,1.49,2022,8302.42.00,CH 888,Kliq-Knob-Handle-CH 777-65MM-Rosegold Graphite,Nos
+65293dd416276a61f95c23e0,Kliq,Handle,Knob,CH 777,65MM,Gold Glossy,1357,1.49,2022,8302.42.00,CH 888,Kliq-Knob-Handle-CH 777-65MM-Gold Glossy,Nos
+65293dd616276a61f95c23e2,Kliq,Handle,Knob,CH 777,65MM,Black Glossy,2006,1.49,2989,8302.42.00,CH 888,Kliq-Knob-Handle-CH 777-65MM-Black Glossy,Nos
+65293dd716276a61f95c23e4,Kliq,Handle,Knob,CH 777,65MM,Black Matt,2006,1.49,2989,8302.42.00,CH 888,Kliq-Knob-Handle-CH 777-65MM-Black Matt,Nos
+65293dd916276a61f95c23e6,Kliq,Handle,Knob,CH 111,40MM,Rosegold Glossy,1121,1.49,1670,8302.42.00,CH 111,Kliq-Knob-Handle-CH 111-40MM-Rosegold Glossy,Nos
+65293dda16276a61f95c23e8,Kliq,Handle,Knob,CH 111,40MM,Rosegold Graphite,1121,1.49,1670,8302.42.00,CH 111,Kliq-Knob-Handle-CH 111-40MM-Rosegold Graphite,Nos
+65293ddc16276a61f95c23ea,Kliq,Handle,Knob,CH 111,40MM,Gold Glossy,1121,1.49,1670,8302.42.00,CH 111,Kliq-Knob-Handle-CH 111-40MM-Gold Glossy,Nos
+65293ddd16276a61f95c23ec,Kliq,Handle,Knob,CH 111,40MM,Black Glossy,1121,1.49,1670,8302.42.00,CH 111,Kliq-Knob-Handle-CH 111-40MM-Black Glossy,Nos
+65293ddf16276a61f95c23ee,Kliq,Handle,Knob,CH 111,40MM,Black Matt,1121,1.49,1670,8302.42.00,CH 111,Kliq-Knob-Handle-CH 111-40MM-Black Matt,Nos
+65293de116276a61f95c23f0,Kliq,Handle,Knob,CH 111,65MM,Rosegold Glossy,1652,1.49,2461,8302.42.00,CH 222,Kliq-Knob-Handle-CH 111-65MM-Rosegold Glossy,Nos
+65293de216276a61f95c23f2,Kliq,Handle,Knob,CH 111,65MM,Rosegold Graphite,1652,1.49,2461,8302.42.00,CH 222,Kliq-Knob-Handle-CH 111-65MM-Rosegold Graphite,Nos
+65293de416276a61f95c23f4,Kliq,Handle,Knob,CH 111,65MM,Gold Glossy,1652,1.49,2461,8302.42.00,CH 222,Kliq-Knob-Handle-CH 111-65MM-Gold Glossy,Nos
+65293de516276a61f95c23f6,Kliq,Handle,Knob,CH 111,65MM,Black Glossy,1652,1.49,2461,8302.42.00,CH 222,Kliq-Knob-Handle-CH 111-65MM-Black Glossy,Nos
+65293de716276a61f95c23f8,Kliq,Handle,Knob,CH 111,65MM,Black Matt,1652,1.49,2461,8302.42.00,CH 222,Kliq-Knob-Handle-CH 111-65MM-Black Matt,Nos
+65293de816276a61f95c23fa,Kliq,Handle,Knob,CH 111,100MM,Rosegold Glossy,7788,1.49,11604,8302.42.00,CH 3300,Kliq-Knob-Handle-CH 111-100MM-Rosegold Glossy,Nos
+65293dea16276a61f95c23fc,Kliq,Handle,Knob,CH 111,100MM,Rosegold Graphite,7788,1.49,11604,8302.42.00,CH 3300,Kliq-Knob-Handle-CH 111-100MM-Rosegold Graphite,Nos
+65293deb16276a61f95c23fe,Kliq,Handle,Knob,CH 111,100MM,Gold Glossy,7788,1.49,11604,8302.42.00,CH 3300,Kliq-Knob-Handle-CH 111-100MM-Gold Glossy,Nos
+65293ded16276a61f95c2400,Kliq,Handle,Knob,CH 111,100MM,Black Glossy,7788,1.49,11604,8302.42.00,CH 3300,Kliq-Knob-Handle-CH 111-100MM-Black Glossy,Nos
+65293dee16276a61f95c2402,Kliq,Handle,Knob,CH 111,100MM,Black Matt,7788,1.49,11604,8302.42.00,CH 3300,Kliq-Knob-Handle-CH 111-100MM-Black Matt,Nos
+65293df016276a61f95c2404,Kliq,Handle,Knob,CH 333,45MM,Rosegold Glossy,1416,1.49,2110,8302.42.00,CH 333,Kliq-Knob-Handle-CH 333-45MM-Rosegold Glossy,Nos
+65293df116276a61f95c2406,Kliq,Handle,Knob,CH 333,45MM,Rosegold Graphite,1416,1.49,2110,8302.42.00,CH 333,Kliq-Knob-Handle-CH 333-45MM-Rosegold Graphite,Nos
+65293df316276a61f95c2408,Kliq,Handle,Knob,CH 333,45MM,Gold Glossy,1416,1.49,2110,8302.42.00,CH 333,Kliq-Knob-Handle-CH 333-45MM-Gold Glossy,Nos
+65293df516276a61f95c240a,Kliq,Handle,Knob,CH 333,45MM,Black Glossy,1416,1.49,2110,8302.42.00,CH 333,Kliq-Knob-Handle-CH 333-45MM-Black Glossy,Nos
+65293df616276a61f95c240c,Kliq,Handle,Knob,CH 333,45MM,Black Matt,1416,1.49,2110,8302.42.00,CH 333,Kliq-Knob-Handle-CH 333-45MM-Black Matt,Nos
+65293df916276a61f95c240e,Kliq,Handle,Knob,CH 333,55MM,Rosegold Glossy,2065,1.49,3077,8302.42.00,CH 444,Kliq-Knob-Handle-CH 333-55MM-Rosegold Glossy,Nos
+65293dfc16276a61f95c2410,Kliq,Handle,Knob,CH 333,55MM,Rosegold Graphite,2065,1.49,3077,8302.42.00,CH 444,Kliq-Knob-Handle-CH 333-55MM-Rosegold Graphite,Nos
+65293dfd16276a61f95c2412,Kliq,Handle,Knob,CH 333,55MM,Gold Glossy,2065,1.49,3077,8302.42.00,CH 444,Kliq-Knob-Handle-CH 333-55MM-Gold Glossy,Nos
+65293dff16276a61f95c2414,Kliq,Handle,Knob,CH 333,55MM,Black Glossy,2065,1.49,3077,8302.42.00,CH 444,Kliq-Knob-Handle-CH 333-55MM-Black Glossy,Nos
+65293e0016276a61f95c2416,Kliq,Handle,Knob,CH 333,55MM,Black Matt,2065,1.49,3077,8302.42.00,CH 444,Kliq-Knob-Handle-CH 333-55MM-Black Matt,Nos
+65293e0216276a61f95c2418,Kliq,Handle,Knob,KQKN 33,32MM,Rosegold Glossy,885,1.49,1319,8302.42.00,KQKN 33,Kliq-Knob-Handle-KQKN 33-32MM-Rosegold Glossy,Nos
+65293e0616276a61f95c241a,Kliq,Handle,Knob,KQKN 33,32MM,Rosegold Graphite,885,1.49,1319,8302.42.00,KQKN 33,Kliq-Knob-Handle-KQKN 33-32MM-Rosegold Graphite,Nos
+65293e0916276a61f95c241c,Kliq,Handle,Knob,KQKN 33,32MM,Gold Glossy,885,1.49,1319,8302.42.00,KQKN 33,Kliq-Knob-Handle-KQKN 33-32MM-Gold Glossy,Nos
+65293e0b16276a61f95c241e,Kliq,Handle,Knob,KQKN 33,32MM,Black Glossy,885,1.49,1319,8302.42.00,KQKN 33,Kliq-Knob-Handle-KQKN 33-32MM-Black Glossy,Nos
+65293e0c16276a61f95c2420,Kliq,Handle,Knob,KQKN 33,32MM,Black Matt,885,1.49,1319,8302.42.00,KQKN 33,Kliq-Knob-Handle-KQKN 33-32MM-Black Matt,Nos
+65293e0e16276a61f95c2422,Kliq,Handle,Knob,KQKN 33,32MM,ANTIQUE,885,1.49,1319,8302.42.00,KQKN 33,Kliq-Knob-Handle-KQKN 33-32MM-ANTIQUE,Nos
+65293e1016276a61f95c2424,Kliq,Handle,Knob,KQKN 33,42MM,Rosegold Glossy,1357,1.49,2022,8302.42.00,KQKN 44,Kliq-Knob-Handle-KQKN 33-42MM-Rosegold Glossy,Nos
+65293e1216276a61f95c2426,Kliq,Handle,Knob,KQKN 33,42MM,Rosegold Graphite,1357,1.49,2022,8302.42.00,KQKN 44,Kliq-Knob-Handle-KQKN 33-42MM-Rosegold Graphite,Nos
+65293e1316276a61f95c2428,Kliq,Handle,Knob,KQKN 33,42MM,Gold Glossy,1357,1.49,2022,8302.42.00,KQKN 44,Kliq-Knob-Handle-KQKN 33-42MM-Gold Glossy,Nos
+65293e1516276a61f95c242a,Kliq,Handle,Knob,KQKN 33,42MM,Black Glossy,1357,1.49,2022,8302.42.00,KQKN 44,Kliq-Knob-Handle-KQKN 33-42MM-Black Glossy,Nos
+65293e1616276a61f95c242c,Kliq,Handle,Knob,KQKN 33,42MM,Black Matt,1357,1.49,2022,8302.42.00,KQKN 44,Kliq-Knob-Handle-KQKN 33-42MM-Black Matt,Nos
+65293e1716276a61f95c242e,Kliq,Handle,Knob,KQKN 33,42MM,ANTIQUE,1357,1.49,2022,8302.42.00,KQKN 44,Kliq-Knob-Handle-KQKN 33-42MM-ANTIQUE,Nos
+65293e1916276a61f95c2430,Kliq,Handle,Knob,KQKN 33,100MM,Rosegold Glossy,9440,1.49,14066,8302.42.00,KQKN 4400,Kliq-Knob-Handle-KQKN 33-100MM-Rosegold Glossy,Nos
+65293e1a16276a61f95c2432,Kliq,Handle,Knob,KQKN 33,100MM,Rosegold Graphite,9440,1.49,14066,8302.42.00,KQKN 4400,Kliq-Knob-Handle-KQKN 33-100MM-Rosegold Graphite,Nos
+65293e1c16276a61f95c2434,Kliq,Handle,Knob,KQKN 33,100MM,Gold Glossy,9440,1.49,14066,8302.42.00,KQKN 4400,Kliq-Knob-Handle-KQKN 33-100MM-Gold Glossy,Nos
+65293e1d16276a61f95c2436,Kliq,Handle,Knob,KQKN 33,100MM,Black Glossy,9440,1.49,14066,8302.42.00,KQKN 4400,Kliq-Knob-Handle-KQKN 33-100MM-Black Glossy,Nos
+65293e1f16276a61f95c2438,Kliq,Handle,Knob,KQKN 33,100MM,Black Matt,9440,1.49,14066,8302.42.00,KQKN 4400,Kliq-Knob-Handle-KQKN 33-100MM-Black Matt,Nos
+65293e2016276a61f95c243a,Kliq,Handle,Knob,KQKN 33,100MM,ANTIQUE,9440,1.49,14066,8302.42.00,KQKN 4400,Kliq-Knob-Handle-KQKN 33-100MM-ANTIQUE,Nos
+65293e2216276a61f95c243c,Kliq,Handle,Knob,CH 999,42MM,Rose gold Graphite + Rose Gold,1475,1.49,2198,8302.42.00,,Kliq-Knob-Handle-CH 999-42MM-Rose gold Graphite + Rose Gold,Nos
+65293e2316276a61f95c243e,Kliq,Handle,Knob,CH 999,42MM,Black Matt + Gold,1475,1.49,2198,8302.42.00,,Kliq-Knob-Handle-CH 999-42MM-Black Matt + Gold,Nos
+65293e2516276a61f95c2440,Kliq,Handle,Knob,CH 999,65MM,Rose gold Graphite + Rose Gold,2596,1.49,3868,8302.42.00,,Kliq-Knob-Handle-CH 999-65MM-Rose gold Graphite + Rose Gold,Nos
+65293e2616276a61f95c2442,Kliq,Handle,Knob,CH 999,65MM,Black Matt + Gold,2596,1.49,3868,8302.42.00,,Kliq-Knob-Handle-CH 999-65MM-Black Matt + Gold,Nos
+65293e2816276a61f95c2444,Kliq,Handle,Knob,CH 999,100MM,Rose gold Graphite + Rose Gold,8968,1.49,13362,8302.42.00,,Kliq-Knob-Handle-CH 999-100MM-Rose gold Graphite + Rose Gold,Nos
+65293e2916276a61f95c2446,Kliq,Handle,Knob,CH 999,100MM,Black Matt + Gold,8968,1.49,13362,8302.42.00,,Kliq-Knob-Handle-CH 999-100MM-Black Matt + Gold,Nos
+65293e2b16276a61f95c2448,Kliq,Handle,Knob,KQKN 11,28MM,Rosegold Graphite+ROSEGOLDGIOSSY,1357,1.49,2022,8302.42.00,KQKN 11,Kliq-Knob-Handle-KQKN 11-28MM-Rosegold Graphite+ROSEGOLDGIOSSY,Nos
+65293e2c16276a61f95c244a,Kliq,Handle,Knob,KQKN 11,28MM,Black Matt + GoldGIOSSY +GOLDGIOSSY,1357,1.49,2022,8302.42.00,KQKN 11,Kliq-Knob-Handle-KQKN 11-28MM-Black Matt + GoldGIOSSY +GOLDGIOSSY,Nos
+65293e2d16276a61f95c244c,Kliq,Handle,Knob,KQKN 11,28MM,BLACKMATT+BLACKGIOSSY,1357,1.49,2022,8302.42.00,KQKN 11,Kliq-Knob-Handle-KQKN 11-28MM-BLACKMATT+BLACKGIOSSY,Nos
+65293e2f16276a61f95c244e,Kliq,Handle,Knob,KQKN 11,42MM,Rosegold Graphite+ROSEGOLDGIOSSY,1770,1.49,2637,8302.42.00,KQKN 22,Kliq-Knob-Handle-KQKN 11-42MM-Rosegold Graphite+ROSEGOLDGIOSSY,Nos
+65293e3016276a61f95c2450,Kliq,Handle,Knob,KQKN 11,42MM,Black Matt + GoldGIOSSY +GOLDGIOSSY,1770,1.49,2637,8302.42.00,KQKN 22,Kliq-Knob-Handle-KQKN 11-42MM-Black Matt + GoldGIOSSY +GOLDGIOSSY,Nos
+65293e3216276a61f95c2452,Kliq,Handle,Knob,KQKN 11,42MM,BLACKMATT+BLACKGIOSSY,1770,1.49,2637,8302.42.00,KQKN 22,Kliq-Knob-Handle-KQKN 11-42MM-BLACKMATT+BLACKGIOSSY,Nos
+65293e3416276a61f95c2454,Kliq,Handle,Knob,KQJI KNURLING,19MM,Antic Brass Matt,590,1.49,879,8302.42.00,,Kliq-Knob-Handle-KQJI KNURLING-19MM-Antic Brass Matt,Nos
+65293e3516276a61f95c2456,Kliq,Handle,Knob,KQJI KNURLING,19MM,ANTIC COPPER MATT,590,1.49,879,8302.42.00,,Kliq-Knob-Handle-KQJI KNURLING-19MM-ANTIC COPPER MATT,Nos
+65293e3816276a61f95c2458,Kliq,Handle,Knob,KQJI KNURLING,19MM,BLACK MATT,590,1.49,879,8302.42.00,,Kliq-Knob-Handle-KQJI KNURLING-19MM-BLACK MATT,Nos
+65293e3916276a61f95c245a,Kliq,Handle,Knob,KQKN 55,40MM,Rosegold Glossy,855,1.49,1274,8302.42.00,KQKN 55,Kliq-Knob-Handle-KQKN 55-40MM-Rosegold Glossy,Nos
+65293e3b16276a61f95c245c,Kliq,Handle,Knob,KQKN 55,40MM,Rosegold Graphite,855,1.49,1274,8302.42.00,KQKN 55,Kliq-Knob-Handle-KQKN 55-40MM-Rosegold Graphite,Nos
+65293e3c16276a61f95c245e,Kliq,Handle,Knob,KQKN 55,40MM,Gold Glossy,855,1.49,1274,8302.42.00,KQKN 55,Kliq-Knob-Handle-KQKN 55-40MM-Gold Glossy,Nos
+65293e3e16276a61f95c2460,Kliq,Handle,Knob,KQKN 55,40MM,Black Glossy,1003,1.49,1494,8302.42.00,KQKN 55,Kliq-Knob-Handle-KQKN 55-40MM-Black Glossy,Nos
+65293e3f16276a61f95c2462,Kliq,Handle,Knob,KQKN 55,40MM,Black Matt,1003,1.49,1494,8302.42.00,KQKN 55,Kliq-Knob-Handle-KQKN 55-40MM-Black Matt,Nos
+65293e4116276a61f95c2464,Kliq,Handle,Knob,KQKN 55,65MM,Rosegold Glossy,1357,1.49,2022,8302.42.00,KQKN 66,Kliq-Knob-Handle-KQKN 55-65MM-Rosegold Glossy,Nos
+65293e4216276a61f95c2466,Kliq,Handle,Knob,KQKN 55,65MM,Rosegold Graphite,1357,1.49,2022,8302.42.00,KQKN 66,Kliq-Knob-Handle-KQKN 55-65MM-Rosegold Graphite,Nos
+65293e4416276a61f95c2468,Kliq,Handle,Knob,KQKN 55,65MM,Gold Glossy,1357,1.49,2022,8302.42.00,KQKN 66,Kliq-Knob-Handle-KQKN 55-65MM-Gold Glossy,Nos
+65293e4516276a61f95c246a,Kliq,Handle,Knob,KQKN 55,65MM,Black Glossy,1475,1.49,2198,8302.42.00,KQKN 66,Kliq-Knob-Handle-KQKN 55-65MM-Black Glossy,Nos
+65293e4716276a61f95c246c,Kliq,Handle,Knob,KQKN 55,65MM,Black Matt,1475,1.49,2198,8302.42.00,KQKN 66,Kliq-Knob-Handle-KQKN 55-65MM-Black Matt,Nos
+65293e4816276a61f95c246e,Kliq,Handle,Knob,KNURLING KnobS,45MM,Rosegold Glossy,590,1.49,879,8302.42.00,,Kliq-Knob-Handle-KNURLING KnobS-45MM-Rosegold Glossy,Nos
+65293e4916276a61f95c2470,Kliq,Handle,Knob,KNURLING KnobS,45MM,Rosegold Graphite,590,1.49,879,8302.42.00,,Kliq-Knob-Handle-KNURLING KnobS-45MM-Rosegold Graphite,Nos
+65293e4b16276a61f95c2472,Kliq,Handle,Knob,KNURLING KnobS,45MM,GREY GRAPHITE,590,1.49,879,8302.42.00,,Kliq-Knob-Handle-KNURLING KnobS-45MM-GREY GRAPHITE,Nos
+65293e4c16276a61f95c2474,Kliq,Handle,Knob,KNURLING KnobS,45MM,ANTIC BRASS MATT,590,1.49,879,8302.42.00,,Kliq-Knob-Handle-KNURLING KnobS-45MM-ANTIC BRASS MATT,Nos
+65293e4e16276a61f95c2476,Kliq,Handle,Knob,T KNURLING,65MM,Rosegold Glossy,826,1.49,1231,8302.42.00,,Kliq-Knob-Handle-T KNURLING-65MM-Rosegold Glossy,Nos
+65293e4f16276a61f95c2478,Kliq,Handle,Knob,T KNURLING,65MM,ANTIC BRASS MATT,826,1.49,1231,8302.42.00,,Kliq-Knob-Handle-T KNURLING-65MM-ANTIC BRASS MATT,Nos
+65293e5116276a61f95c247a,Kliq,Handle,Knob,T KNURLING,65MM,Black Matt,826,1.49,1231,8302.42.00,,Kliq-Knob-Handle-T KNURLING-65MM-Black Matt,Nos
+65293e5216276a61f95c247c,Kliq,Handle,Knob,T KNURLING,65MM,Gold,826,1.49,1231,8302.42.00,,Kliq-Knob-Handle-T KNURLING-65MM-Gold,Nos
+65293e5416276a61f95c247e,Kliq,Handle,Knob,CH 700,Small,Rosegold Glossy,649,1.49,967,8302.42.00,CH 700,Kliq-Knob-Handle-CH 700-Small-Rosegold Glossy,Nos
+65293e5516276a61f95c2480,Kliq,Handle,Knob,CH 700,Small,Rosegold Graphite,649,1.49,967,8302.42.00,CH 700,Kliq-Knob-Handle-CH 700-Small-Rosegold Graphite,Nos
+65293e5716276a61f95c2482,Kliq,Handle,Knob,CH 700,Small,BLACK GIOSSY,649,1.49,967,8302.42.00,CH 700,Kliq-Knob-Handle-CH 700-Small-BLACK GIOSSY,Nos
+65293e5816276a61f95c2484,Kliq,Handle,Knob,CH 700,Small,BLACK MATT,649,1.49,967,8302.42.00,CH 700,Kliq-Knob-Handle-CH 700-Small-BLACK MATT,Nos
+65293e5916276a61f95c2486,Kliq,Handle,Knob,CH 700,Big,Rosegold Glossy,1121,1.49,1670,8302.42.00,CH 800,Kliq-Knob-Handle-CH 700-Big-Rosegold Glossy,Nos
+65293e5b16276a61f95c2488,Kliq,Handle,Knob,CH 700,Big,Rosegold Graphite,1121,1.49,1670,8302.42.00,CH 800,Kliq-Knob-Handle-CH 700-Big-Rosegold Graphite,Nos
+65293e5c16276a61f95c248a,Kliq,Handle,Knob,CH 700,Big,BLACK GIOSSY,1121,1.49,1670,8302.42.00,CH 800,Kliq-Knob-Handle-CH 700-Big-BLACK GIOSSY,Nos
+65293e5e16276a61f95c248c,Kliq,Handle,Knob,CH 700,Big,BLACK MATT,1121,1.49,1670,8302.42.00,CH 800,Kliq-Knob-Handle-CH 700-Big-BLACK MATT,Nos
+65293e5f16276a61f95c248e,Kliq,Handle,Knob,MOP ROUND Knob,28MM,Rosegold Glossy,660,1.49,983,8302.42.00,,Kliq-Knob-Handle-MOP ROUND Knob-28MM-Rosegold Glossy,Nos
+65293e6116276a61f95c2490,Kliq,Handle,Knob,MOP ROUND Knob,28MM,Gold Glossy,660,1.49,983,8302.42.00,,Kliq-Knob-Handle-MOP ROUND Knob-28MM-Gold Glossy,Nos
+65293e6216276a61f95c2492,Kliq,Handle,Knob,CH 200 SQUARE Knob,35MM,AB MATT+GOLD GIOSSY,390,1.49,581,8302.42.00,,Kliq-Knob-Handle-CH 200 SQUARE Knob-35MM-AB MATT+GOLD GIOSSY,Nos
+65293e6416276a61f95c2494,Kliq,Handle,Knob,CH 200 SQUARE Knob,35MM,SS MATT GOLD GIOSSY,390,1.49,581,8302.42.00,,Kliq-Knob-Handle-CH 200 SQUARE Knob-35MM-SS MATT GOLD GIOSSY,Nos
+65293e6516276a61f95c2496,Kliq,Handle,Knob,CH 200 ROUND KNOD,32MM,AB MATT+GOLD GIOSSY,354,1.49,527,8302.42.00,,Kliq-Knob-Handle-CH 200 ROUND KNOD-32MM-AB MATT+GOLD GIOSSY,Nos
+65293e6716276a61f95c2498,Kliq,Handle,Knob,CH 200 ROUND KNOD,32MM,SS MATT GOLD GIOSSY,354,1.49,527,8302.42.00,,Kliq-Knob-Handle-CH 200 ROUND KNOD-32MM-SS MATT GOLD GIOSSY,Nos
+65293e6916276a61f95c249a,Kliq,Handle,Knob,MERCEDES MOP Knob,38MM,ROSEGOLD GIOSSY,1652,1.49,2461,8302.42.00,,Kliq-Knob-Handle-MERCEDES MOP Knob-38MM-ROSEGOLD GIOSSY,Nos
+65293e6a16276a61f95c249c,Kliq,Handle,Knob,MERCEDES MOP Knob,38MM,GLOD GIOSSY,1652,1.49,2461,8302.42.00,,Kliq-Knob-Handle-MERCEDES MOP Knob-38MM-GLOD GIOSSY,Nos
+65293e6c16276a61f95c249e,Kliq,Handle,Knob,MERCEDES MOP Knob,38MM,BLACK GLOSSY,1652,1.49,2461,8302.42.00,,Kliq-Knob-Handle-MERCEDES MOP Knob-38MM-BLACK GLOSSY,Nos
+65293e6e16276a61f95c24a0,Kliq,Handle,Knob,KQKN 91,ZINC,ROSEGOLD GIOSSY,428,1.49,638,8302.42.00,,Kliq-Knob-Handle-KQKN 91-ZINC-ROSEGOLD GIOSSY,Nos
+65293e6f16276a61f95c24a2,Kliq,Handle,Knob,KQKN 91,ZINC,Gold Glossy,428,1.49,638,8302.42.00,,Kliq-Knob-Handle-KQKN 91-ZINC-Gold Glossy,Nos
+65293e7116276a61f95c24a4,Kliq,Handle,Knob,KQKN 91,ZINC,ANTIQUEBRASS MATT,428,1.49,638,8302.42.00,,Kliq-Knob-Handle-KQKN 91-ZINC-ANTIQUEBRASS MATT,Nos
+65293e7216276a61f95c24a6,Kliq,Handle,Knob,KQKN 91,ZINC,GREY GRAPHITE,428,1.49,638,8302.42.00,,Kliq-Knob-Handle-KQKN 91-ZINC-GREY GRAPHITE,Nos
+65293e7516276a61f95c24a8,Kliq,Handle,Conseal,HAMMER,6'',BLACK GLOSSY,1770,1.49,2637,8302.42.00,,Kliq-Conseal-Handle-HAMMER-6''-BLACK GLOSSY,Nos
+65293e7716276a61f95c24aa,Kliq,Handle,Conseal,HAMMER,6'',ROSEGOLD GIOSSY,1770,1.49,2637,8302.42.00,,Kliq-Conseal-Handle-HAMMER-6''-ROSEGOLD GIOSSY,Nos
+65293e7816276a61f95c24ac,Kliq,Handle,Conseal,HAMMER,6'',Gold Glossy,1770,1.49,2637,8302.42.00,,Kliq-Conseal-Handle-HAMMER-6''-Gold Glossy,Nos
+65293e7a16276a61f95c24ae,Kliq,Handle,Conseal,HAMMER,6'',BAKCL MATT,1770,1.49,2637,8302.42.00,,Kliq-Conseal-Handle-HAMMER-6''-BAKCL MATT,Nos
+65293e7b16276a61f95c24b0,Kliq,Handle,Conseal,HAMMER,6'',Rosegold Graphite,1770,1.49,2637,8302.42.00,,Kliq-Conseal-Handle-HAMMER-6''-Rosegold Graphite,Nos
+65293e7d16276a61f95c24b2,Kliq,Handle,Conseal,HAMMER,8'',BLACK GLOSSY,2360,1.49,3516,8302.42.00,,Kliq-Conseal-Handle-HAMMER-8''-BLACK GLOSSY,Nos
+65293e7e16276a61f95c24b4,Kliq,Handle,Conseal,HAMMER,8'',ROSEGOLD GIOSSY,2360,1.49,3516,8302.42.00,,Kliq-Conseal-Handle-HAMMER-8''-ROSEGOLD GIOSSY,Nos
+65293e8016276a61f95c24b6,Kliq,Handle,Conseal,HAMMER,8'',Gold Glossy,2360,1.49,3516,8302.42.00,,Kliq-Conseal-Handle-HAMMER-8''-Gold Glossy,Nos
+65293e8116276a61f95c24b8,Kliq,Handle,Conseal,HAMMER,8'',BAKCL MATT,2360,1.49,3516,8302.42.00,,Kliq-Conseal-Handle-HAMMER-8''-BAKCL MATT,Nos
+65293e8316276a61f95c24ba,Kliq,Handle,Conseal,HAMMER,8'',Rosegold Graphite,2360,1.49,3516,8302.42.00,,Kliq-Conseal-Handle-HAMMER-8''-Rosegold Graphite,Nos
+65293e8416276a61f95c24bc,Kliq,Handle,Conseal,HAMMER,12'',BLACK GLOSSY,3540,1.49,5275,8302.42.00,,Kliq-Conseal-Handle-HAMMER-12''-BLACK GLOSSY,Nos
+65293e8516276a61f95c24be,Kliq,Handle,Conseal,HAMMER,12'',ROSEGOLD GIOSSY,3540,1.49,5275,8302.42.00,,Kliq-Conseal-Handle-HAMMER-12''-ROSEGOLD GIOSSY,Nos
+65293e8716276a61f95c24c0,Kliq,Handle,Conseal,HAMMER,12'',Gold Glossy,3540,1.49,5275,8302.42.00,,Kliq-Conseal-Handle-HAMMER-12''-Gold Glossy,Nos
+65293e8816276a61f95c24c2,Kliq,Handle,Conseal,HAMMER,12'',BAKCL MATT,3540,1.49,5275,8302.42.00,,Kliq-Conseal-Handle-HAMMER-12''-BAKCL MATT,Nos
+65293e8a16276a61f95c24c4,Kliq,Handle,Conseal,HAMMER,12'',Rosegold Graphite,3540,1.49,5275,8302.42.00,,Kliq-Conseal-Handle-HAMMER-12''-Rosegold Graphite,Nos
+65293e8b16276a61f95c24c6,Kliq,Handle,Conseal,KQCC 45,96MM,Rose gold Graphite+Rose gold Glossy,826,1.49,1231,8302.42.00,,Kliq-Conseal-Handle-KQCC 45-96MM-Rose gold Graphite+Rose gold Glossy,Nos
+65293e8d16276a61f95c24c8,Kliq,Handle,Conseal,KQCC 45,96MM,BLACK MATT+GOLD GLOSSY,826,1.49,1231,8302.42.00,,Kliq-Conseal-Handle-KQCC 45-96MM-BLACK MATT+GOLD GLOSSY,Nos
+65293e8e16276a61f95c24ca,Kliq,Handle,Conseal,KQCC 45,96MM,GRAPHITE+BLACK GLOSSY,826,1.49,1231,8302.42.00,,Kliq-Conseal-Handle-KQCC 45-96MM-GRAPHITE+BLACK GLOSSY,Nos
+65293e9016276a61f95c24cc,Kliq,Handle,Conseal,KQCC 45,96MM,ANTIC BRASS MATT+GOLD GLOSSY,826,1.49,1231,8302.42.00,,Kliq-Conseal-Handle-KQCC 45-96MM-ANTIC BRASS MATT+GOLD GLOSSY,Nos
+65293e9116276a61f95c24ce,Kliq,Handle,Conseal,KQCC 45,160MM,Rose gold Graphite+Rose gold Glossy,1298,1.49,1934,8302.42.00,,Kliq-Conseal-Handle-KQCC 45-160MM-Rose gold Graphite+Rose gold Glossy,Nos
+65293e9316276a61f95c24d0,Kliq,Handle,Conseal,KQCC 45,160MM,BLACK MATT+GOLD GLOSSY,1298,1.49,1934,8302.42.00,,Kliq-Conseal-Handle-KQCC 45-160MM-BLACK MATT+GOLD GLOSSY,Nos
+65293e9416276a61f95c24d2,Kliq,Handle,Conseal,KQCC 45,160MM,GRAPHITE+BLACK GLOSSY,1298,1.49,1934,8302.42.00,,Kliq-Conseal-Handle-KQCC 45-160MM-GRAPHITE+BLACK GLOSSY,Nos
+65293e9516276a61f95c24d4,Kliq,Handle,Conseal,KQCC 45,160MM,ANTIC BRASS MATT+GOLD GLOSSY,1298,1.49,1934,8302.42.00,,Kliq-Conseal-Handle-KQCC 45-160MM-ANTIC BRASS MATT+GOLD GLOSSY,Nos
+65293e9716276a61f95c24d6,Kliq,Handle,Conseal,KQCC 45,224MM,Rose gold Graphite+Rose gold Glossy,1534,1.49,2286,8302.42.00,,Kliq-Conseal-Handle-KQCC 45-224MM-Rose gold Graphite+Rose gold Glossy,Nos
+65293e9816276a61f95c24d8,Kliq,Handle,Conseal,KQCC 45,224MM,BLACK MATT+GOLD GLOSSY,1534,1.49,2286,8302.42.00,,Kliq-Conseal-Handle-KQCC 45-224MM-BLACK MATT+GOLD GLOSSY,Nos
+65293e9a16276a61f95c24da,Kliq,Handle,Conseal,KQCC 45,224MM,GRAPHITE+BLACK GLOSSY,1534,1.49,2286,8302.42.00,,Kliq-Conseal-Handle-KQCC 45-224MM-GRAPHITE+BLACK GLOSSY,Nos
+65293e9b16276a61f95c24dc,Kliq,Handle,Conseal,KQCC 45,224MM,ANTIC BRASS MATT+GOLD GLOSSY,1534,1.49,2286,8302.42.00,,Kliq-Conseal-Handle-KQCC 45-224MM-ANTIC BRASS MATT+GOLD GLOSSY,Nos
+65293e9d16276a61f95c24de,Kliq,Handle,Conseal,KQCC 18,96MM,GREY GRAPHITE+ ROSEGOLD GLOSSY,1019,1.49,1518,8302.42.00,,Kliq-Conseal-Handle-KQCC 18-96MM-GREY GRAPHITE+ ROSEGOLD GLOSSY,Nos
+65293e9e16276a61f95c24e0,Kliq,Handle,Conseal,KQCC 18,96MM,Black Matt + Black Glossy,1019,1.49,1518,8302.42.00,,Kliq-Conseal-Handle-KQCC 18-96MM-Black Matt + Black Glossy,Nos
+65293ea016276a61f95c24e2,Kliq,Handle,Conseal,KQCC 18,96MM,Antique Brass Matt + Gold Glossy,1019,1.49,1518,8302.42.00,,Kliq-Conseal-Handle-KQCC 18-96MM-Antique Brass Matt + Gold Glossy,Nos
+65293ea116276a61f95c24e4,Kliq,Handle,Conseal,KQCC 18,96MM,SS Matt + Black Matt,1019,1.49,1518,8302.42.00,,Kliq-Conseal-Handle-KQCC 18-96MM-SS Matt + Black Matt,Nos
+65293ea316276a61f95c24e6,Kliq,Handle,Conseal,KQCC 18,160MM,GREY GRAPHITE+ ROSEGOLD GLOSSY,1663,1.49,2478,8302.42.00,,Kliq-Conseal-Handle-KQCC 18-160MM-GREY GRAPHITE+ ROSEGOLD GLOSSY,Nos
+65293ea416276a61f95c24e8,Kliq,Handle,Conseal,KQCC 18,160MM,Black Matt + Black Glossy,1663,1.49,2478,8302.42.00,,Kliq-Conseal-Handle-KQCC 18-160MM-Black Matt + Black Glossy,Nos
+65293ea516276a61f95c24ea,Kliq,Handle,Conseal,KQCC 18,160MM,Antique Brass Matt + Gold Glossy,1663,1.49,2478,8302.42.00,,Kliq-Conseal-Handle-KQCC 18-160MM-Antique Brass Matt + Gold Glossy,Nos
+65293ea716276a61f95c24ec,Kliq,Handle,Conseal,KQCC 18,160MM,SS Matt + Black Matt,1663,1.49,2478,8302.42.00,,Kliq-Conseal-Handle-KQCC 18-160MM-SS Matt + Black Matt,Nos
+65293ea816276a61f95c24ee,Kliq,Handle,Conseal,KQCC 18,224MM,GREY GRAPHITE+ ROSEGOLD GLOSSY,2092,1.49,3117,8302.42.00,,Kliq-Conseal-Handle-KQCC 18-224MM-GREY GRAPHITE+ ROSEGOLD GLOSSY,Nos
+65293eaa16276a61f95c24f0,Kliq,Handle,Conseal,KQCC 18,224MM,Black Matt + Black Glossy,2092,1.49,3117,8302.42.00,,Kliq-Conseal-Handle-KQCC 18-224MM-Black Matt + Black Glossy,Nos
+65293eab16276a61f95c24f2,Kliq,Handle,Conseal,KQCC 18,224MM,Antique Brass Matt + Gold Glossy,2092,1.49,3117,8302.42.00,,Kliq-Conseal-Handle-KQCC 18-224MM-Antique Brass Matt + Gold Glossy,Nos
+65293eae16276a61f95c24f4,Kliq,Handle,Conseal,KQCC 18,224MM,SS Matt + Black Matt,2092,1.49,3117,8302.42.00,,Kliq-Conseal-Handle-KQCC 18-224MM-SS Matt + Black Matt,Nos
+65293eb116276a61f95c24f6,Kliq,Handle,Conseal,KQCC 18,288MM,GREY GRAPHITE+ ROSEGOLD GLOSSY,2521,1.49,3756,8302.42.00,,Kliq-Conseal-Handle-KQCC 18-288MM-GREY GRAPHITE+ ROSEGOLD GLOSSY,Nos
+65293eb316276a61f95c24f8,Kliq,Handle,Conseal,KQCC 18,288MM,Black Matt + Black Glossy,2521,1.49,3756,8302.42.00,,Kliq-Conseal-Handle-KQCC 18-288MM-Black Matt + Black Glossy,Nos
+65293eb416276a61f95c24fa,Kliq,Handle,Conseal,KQCC 18,288MM,Antique Brass Matt + Gold Glossy,2521,1.49,3756,8302.42.00,,Kliq-Conseal-Handle-KQCC 18-288MM-Antique Brass Matt + Gold Glossy,Nos
+65293eb616276a61f95c24fc,Kliq,Handle,Conseal,KQCC 18,288MM,SS Matt + Black Matt,2521,1.49,3756,8302.42.00,,Kliq-Conseal-Handle-KQCC 18-288MM-SS Matt + Black Matt,Nos
+65293eb716276a61f95c24fe,Kliq,Handle,Conseal,KQCC 99,96MM,Black Matt + Rosegold Glossy,590,1.49,879,8302.42.00,,Kliq-Conseal-Handle-KQCC 99-96MM-Black Matt + Rosegold Glossy,Nos
+65293eb916276a61f95c2500,Kliq,Handle,Conseal,KQCC 99,96MM,Black Matt + Black Glossy,590,1.49,879,8302.42.00,,Kliq-Conseal-Handle-KQCC 99-96MM-Black Matt + Black Glossy,Nos
+65293ebb16276a61f95c2502,Kliq,Handle,Conseal,KQCC 99,96MM,Black Matt + Antic Brass Matt,590,1.49,879,8302.42.00,,Kliq-Conseal-Handle-KQCC 99-96MM-Black Matt + Antic Brass Matt,Nos
+65293ebc16276a61f95c2504,Kliq,Handle,Conseal,KQCC 99,96MM,Black Matt + SS Matt,590,1.49,879,8302.42.00,,Kliq-Conseal-Handle-KQCC 99-96MM-Black Matt + SS Matt,Nos
+65293ebe16276a61f95c2506,Kliq,Handle,Conseal,KQCC 99,160MM,Black Matt + Rosegold Glossy,826,1.49,1231,8302.42.00,,Kliq-Conseal-Handle-KQCC 99-160MM-Black Matt + Rosegold Glossy,Nos
+65293ec016276a61f95c2508,Kliq,Handle,Conseal,KQCC 99,160MM,Black Matt + Black Glossy,826,1.49,1231,8302.42.00,,Kliq-Conseal-Handle-KQCC 99-160MM-Black Matt + Black Glossy,Nos
+65293ec116276a61f95c250a,Kliq,Handle,Conseal,KQCC 99,160MM,Black Matt + Antic Brass Matt,826,1.49,1231,8302.42.00,,Kliq-Conseal-Handle-KQCC 99-160MM-Black Matt + Antic Brass Matt,Nos
+65293ec316276a61f95c250c,Kliq,Handle,Conseal,KQCC 99,160MM,Black Matt + SS Matt,826,1.49,1231,8302.42.00,,Kliq-Conseal-Handle-KQCC 99-160MM-Black Matt + SS Matt,Nos
+65293ec416276a61f95c250e,Kliq,Handle,Conseal,KQCC 99,224MM,Black Matt + Rosegold Glossy,1240,1.49,1848,8302.42.00,,Kliq-Conseal-Handle-KQCC 99-224MM-Black Matt + Rosegold Glossy,Nos
+65293ec616276a61f95c2510,Kliq,Handle,Conseal,KQCC 99,224MM,Black Matt + Black Glossy,1240,1.49,1848,8302.42.00,,Kliq-Conseal-Handle-KQCC 99-224MM-Black Matt + Black Glossy,Nos
+65293ec716276a61f95c2512,Kliq,Handle,Conseal,KQCC 99,224MM,Black Matt + Antic Brass Matt,1240,1.49,1848,8302.42.00,,Kliq-Conseal-Handle-KQCC 99-224MM-Black Matt + Antic Brass Matt,Nos
+65293eca16276a61f95c2514,Kliq,Handle,Conseal,KQCC 99,224MM,Black Matt + SS Matt,1240,1.49,1848,8302.42.00,,Kliq-Conseal-Handle-KQCC 99-224MM-Black Matt + SS Matt,Nos
+65293ecc16276a61f95c2516,Kliq,Handle,Conseal,KQCC 27,96MM,Grey Graphite + Rosegold Glossy,751,1.49,1119,8302.42.00,,Kliq-Conseal-Handle-KQCC 27-96MM-Grey Graphite + Rosegold Glossy,Nos
+65293ece16276a61f95c2518,Kliq,Handle,Conseal,KQCC 27,96MM,Antique Brass Matt + Gold Glossy,751,1.49,1119,8302.42.00,,Kliq-Conseal-Handle-KQCC 27-96MM-Antique Brass Matt + Gold Glossy,Nos
+65293ed016276a61f95c251a,Kliq,Handle,Conseal,KQCC 27,96MM,Black Matt + Black Glossy,751,1.49,1119,8302.42.00,,Kliq-Conseal-Handle-KQCC 27-96MM-Black Matt + Black Glossy,Nos
+65293ed116276a61f95c251c,Kliq,Handle,Conseal,KQCC 27,160MM,Grey Graphite + Rosegold Glossy,1180,1.49,1758,8302.42.00,,Kliq-Conseal-Handle-KQCC 27-160MM-Grey Graphite + Rosegold Glossy,Nos
+65293ed316276a61f95c251e,Kliq,Handle,Conseal,KQCC 27,160MM,Antique Brass Matt + Gold Glossy,1180,1.49,1758,8302.42.00,,Kliq-Conseal-Handle-KQCC 27-160MM-Antique Brass Matt + Gold Glossy,Nos
+65293ed516276a61f95c2520,Kliq,Handle,Conseal,KQCC 27,160MM,Black Matt + Black Glossy,1180,1.49,1758,8302.42.00,,Kliq-Conseal-Handle-KQCC 27-160MM-Black Matt + Black Glossy,Nos
+65293ed616276a61f95c2522,Kliq,Handle,Conseal,KQCC 27,224MM,Grey Graphite + Rosegold Glossy,1609,1.49,2397,8302.42.00,,Kliq-Conseal-Handle-KQCC 27-224MM-Grey Graphite + Rosegold Glossy,Nos
+65293ed816276a61f95c2524,Kliq,Handle,Conseal,KQCC 27,224MM,Antique Brass Matt + Gold Glossy,1609,1.49,2397,8302.42.00,,Kliq-Conseal-Handle-KQCC 27-224MM-Antique Brass Matt + Gold Glossy,Nos
+65293eda16276a61f95c2526,Kliq,Handle,Conseal,KQCC 27,224MM,Black Matt + Black Glossy,1609,1.49,2397,8302.42.00,,Kliq-Conseal-Handle-KQCC 27-224MM-Black Matt + Black Glossy,Nos
+65293edc16276a61f95c2528,Kliq,Handle,Conseal,KQCC 27,288MM,Grey Graphite + Rosegold Glossy,1824,1.49,2718,8302.42.00,,Kliq-Conseal-Handle-KQCC 27-288MM-Grey Graphite + Rosegold Glossy,Nos
+65293ede16276a61f95c252a,Kliq,Handle,Conseal,KQCC 27,288MM,Antique Brass Matt + Gold Glossy,1824,1.49,2718,8302.42.00,,Kliq-Conseal-Handle-KQCC 27-288MM-Antique Brass Matt + Gold Glossy,Nos
+65293ee016276a61f95c252c,Kliq,Handle,Conseal,KQCC 27,288MM,Black Matt + Black Glossy,1824,1.49,2718,8302.42.00,,Kliq-Conseal-Handle-KQCC 27-288MM-Black Matt + Black Glossy,Nos
+65293ee216276a61f95c252e,Kliq,Handle,Cabinet,CH 2250,6''X3'',Rosegold Glossy,5310,1.49,7912,8302.42.00,,Kliq-Cabinet-Handle-CH 2250-6''X3''-Rosegold Glossy,Nos
+65293ee416276a61f95c2530,Kliq,Handle,Cabinet,CH 2250,6''X3'',Rosegold Graphite,5310,1.49,7912,8302.42.00,,Kliq-Cabinet-Handle-CH 2250-6''X3''-Rosegold Graphite,Nos
+65293ee616276a61f95c2532,Kliq,Handle,Cabinet,CH 2250,6''X3'',Antique Brass Matt,5310,1.49,7912,8302.42.00,,Kliq-Cabinet-Handle-CH 2250-6''X3''-Antique Brass Matt,Nos
+65293ee816276a61f95c2534,Kliq,Handle,Cabinet,CH 2250,6''X3'',Black Graphite,5310,1.49,7912,8302.42.00,,Kliq-Cabinet-Handle-CH 2250-6''X3''-Black Graphite,Nos
+65293eee16276a61f95c2536,Kliq,Handle,Cabinet,Leaf Profile,2'',Rosegold Glossy,142,1.49,212,8302.42.00,,Kliq-Cabinet-Handle-Leaf Profile-2''-Rosegold Glossy,Nos
+65293efd16276a61f95c2538,Kliq,Handle,Cabinet,Leaf Profile,2'',Gold Glossy,142,1.49,212,8302.42.00,,Kliq-Cabinet-Handle-Leaf Profile-2''-Gold Glossy,Nos
+65293f0116276a61f95c253a,Kliq,Handle,Cabinet,Leaf Profile,2'',Black Matt,142,1.49,212,8302.42.00,,Kliq-Cabinet-Handle-Leaf Profile-2''-Black Matt,Nos
+65293f0316276a61f95c253c,Kliq,Handle,Cabinet,Leaf Profile,2'',SS Matt,142,1.49,212,8302.42.00,,Kliq-Cabinet-Handle-Leaf Profile-2''-SS Matt,Nos
+65293f0516276a61f95c253e,Kliq,Handle,Cabinet,Leaf Profile,4'',Rosegold Glossy,283,1.49,422,8302.42.00,,Kliq-Cabinet-Handle-Leaf Profile-4''-Rosegold Glossy,Nos
+65293f0716276a61f95c2540,Kliq,Handle,Cabinet,Leaf Profile,4'',Gold Glossy,283,1.49,422,8302.42.00,,Kliq-Cabinet-Handle-Leaf Profile-4''-Gold Glossy,Nos
+65293f0816276a61f95c2542,Kliq,Handle,Cabinet,Leaf Profile,4'',Black Matt,283,1.49,422,8302.42.00,,Kliq-Cabinet-Handle-Leaf Profile-4''-Black Matt,Nos
+65293f0a16276a61f95c2544,Kliq,Handle,Cabinet,Leaf Profile,4'',SS Matt,283,1.49,422,8302.42.00,,Kliq-Cabinet-Handle-Leaf Profile-4''-SS Matt,Nos
+65293f0c16276a61f95c2546,Kliq,Handle,Cabinet,Leaf Profile,6'',Rosegold Glossy,425,1.49,633,8302.42.00,,Kliq-Cabinet-Handle-Leaf Profile-6''-Rosegold Glossy,Nos
+65293f0d16276a61f95c2548,Kliq,Handle,Cabinet,Leaf Profile,6'',Gold Glossy,425,1.49,633,8302.42.00,,Kliq-Cabinet-Handle-Leaf Profile-6''-Gold Glossy,Nos
+65293f0f16276a61f95c254a,Kliq,Handle,Cabinet,Leaf Profile,6'',Black Matt,425,1.49,633,8302.42.00,,Kliq-Cabinet-Handle-Leaf Profile-6''-Black Matt,Nos
+65293f1116276a61f95c254c,Kliq,Handle,Cabinet,Leaf Profile,6'',SS Matt,425,1.49,633,8302.42.00,,Kliq-Cabinet-Handle-Leaf Profile-6''-SS Matt,Nos
+65293f1216276a61f95c254e,Kliq,Handle,Cabinet,Leaf Profile,8'',Rosegold Glossy,567,1.49,845,8302.42.00,,Kliq-Cabinet-Handle-Leaf Profile-8''-Rosegold Glossy,Nos
+65293f1416276a61f95c2550,Kliq,Handle,Cabinet,Leaf Profile,8'',Gold Glossy,567,1.49,845,8302.42.00,,Kliq-Cabinet-Handle-Leaf Profile-8''-Gold Glossy,Nos
+65293f1516276a61f95c2552,Kliq,Handle,Cabinet,Leaf Profile,8'',Black Matt,567,1.49,845,8302.42.00,,Kliq-Cabinet-Handle-Leaf Profile-8''-Black Matt,Nos
+65293f1716276a61f95c2554,Kliq,Handle,Cabinet,Leaf Profile,8'',SS Matt,567,1.49,845,8302.42.00,,Kliq-Cabinet-Handle-Leaf Profile-8''-SS Matt,Nos
+65293f1816276a61f95c2556,Kliq,Handle,Cabinet,Leaf Profile,12'',Rosegold Glossy,850,1.49,1267,8302.42.00,,Kliq-Cabinet-Handle-Leaf Profile-12''-Rosegold Glossy,Nos
+65293f1a16276a61f95c2558,Kliq,Handle,Cabinet,Leaf Profile,12'',Gold Glossy,850,1.49,1267,8302.42.00,,Kliq-Cabinet-Handle-Leaf Profile-12''-Gold Glossy,Nos
+65293f1c16276a61f95c255a,Kliq,Handle,Cabinet,Leaf Profile,12'',Black Matt,850,1.49,1267,8302.42.00,,Kliq-Cabinet-Handle-Leaf Profile-12''-Black Matt,Nos
+65293f1d16276a61f95c255c,Kliq,Handle,Cabinet,Leaf Profile,12'',SS Matt,850,1.49,1267,8302.42.00,,Kliq-Cabinet-Handle-Leaf Profile-12''-SS Matt,Nos
+65293f1f16276a61f95c255e,Kliq,Handle,Cabinet,CH 200,96MM,Antic Brass Matt +GOLD GIOSSY,496,1.49,739,8302.42.00,,Kliq-Cabinet-Handle-CH 200-96MM-Antic Brass Matt +GOLD GIOSSY,Nos
+65293f2116276a61f95c2560,Kliq,Handle,Cabinet,CH 200,96MM,SS Matt + Gold Glossy,496,1.49,739,8302.42.00,,Kliq-Cabinet-Handle-CH 200-96MM-SS Matt + Gold Glossy,Nos
+65293f2216276a61f95c2562,Kliq,Handle,Cabinet,CH 200,160MM,Antic Brass Matt +GOLD GIOSSY,772,1.49,1150,8302.42.00,,Kliq-Cabinet-Handle-CH 200-160MM-Antic Brass Matt +GOLD GIOSSY,Nos
+65293f2716276a61f95c2564,Kliq,Handle,Cabinet,CH 200,160MM,SS Matt + Gold Glossy,772,1.49,1150,8302.42.00,,Kliq-Cabinet-Handle-CH 200-160MM-SS Matt + Gold Glossy,Nos
+65293f2d16276a61f95c2566,Kliq,Handle,Cabinet,CH 200,224MM,Antic Brass Matt +GOLD GIOSSY,968,1.49,1442,8302.42.00,,Kliq-Cabinet-Handle-CH 200-224MM-Antic Brass Matt +GOLD GIOSSY,Nos
+65293f2e16276a61f95c2568,Kliq,Handle,Cabinet,CH 200,224MM,SS Matt + Gold Glossy,968,1.49,1442,8302.42.00,,Kliq-Cabinet-Handle-CH 200-224MM-SS Matt + Gold Glossy,Nos
+65293f3016276a61f95c256a,Kliq,Handle,Cabinet,CH 200,288MM,Antic Brass Matt +GOLD GIOSSY,1205,1.49,1795,8302.42.00,,Kliq-Cabinet-Handle-CH 200-288MM-Antic Brass Matt +GOLD GIOSSY,Nos
+65293f3116276a61f95c256c,Kliq,Handle,Cabinet,CH 200,288MM,SS Matt + Gold Glossy,1205,1.49,1795,8302.42.00,,Kliq-Cabinet-Handle-CH 200-288MM-SS Matt + Gold Glossy,Nos
+65293f3316276a61f95c256e,Kliq,Handle,Cabinet,MOP ROUND Knob,4'',Rosegold Glossy,1180,1.49,1758,8302.42.00,,Kliq-Cabinet-Handle-MOP ROUND Knob-4''-Rosegold Glossy,Nos
+65293f3516276a61f95c2570,Kliq,Handle,Cabinet,MOP ROUND Knob,4'',Gold Glossy,1180,1.49,1758,8302.42.00,,Kliq-Cabinet-Handle-MOP ROUND Knob-4''-Gold Glossy,Nos
+65293f3616276a61f95c2572,Kliq,Handle,Cabinet,MOP ROUND Knob,6'',Rosegold Glossy,1770,1.49,2637,8302.42.00,,Kliq-Cabinet-Handle-MOP ROUND Knob-6''-Rosegold Glossy,Nos
+65293f3816276a61f95c2574,Kliq,Handle,Cabinet,MOP ROUND Knob,6'',Gold Glossy,1770,1.49,2637,8302.42.00,,Kliq-Cabinet-Handle-MOP ROUND Knob-6''-Gold Glossy,Nos
+65293f3916276a61f95c2576,Kliq,Handle,Cabinet,MOP ROUND Knob,8'',Rosegold Glossy,2360,1.49,3516,8302.42.00,,Kliq-Cabinet-Handle-MOP ROUND Knob-8''-Rosegold Glossy,Nos
+65293f3b16276a61f95c2578,Kliq,Handle,Cabinet,MOP ROUND Knob,8'',Gold Glossy,2360,1.49,3516,8302.42.00,,Kliq-Cabinet-Handle-MOP ROUND Knob-8''-Gold Glossy,Nos
+65293f3d16276a61f95c257a,Kliq,Handle,Cabinet,MOP ROUND Knob,12'',Rosegold Glossy,3540,1.49,5275,8302.42.00,,Kliq-Cabinet-Handle-MOP ROUND Knob-12''-Rosegold Glossy,Nos
+65293f3e16276a61f95c257c,Kliq,Handle,Cabinet,MOP ROUND Knob,12'',Gold Glossy,3540,1.49,5275,8302.42.00,,Kliq-Cabinet-Handle-MOP ROUND Knob-12''-Gold Glossy,Nos
+65293f4016276a61f95c257e,Kliq,Handle,Cabinet,KNURLING,96MM,Rosegold Glossy,708,1.49,1055,8302.42.00,,Kliq-Cabinet-Handle-KNURLING-96MM-Rosegold Glossy,Nos
+65293f4116276a61f95c2580,Kliq,Handle,Cabinet,KNURLING,96MM,Gold Glossy,708,1.49,1055,8302.42.00,,Kliq-Cabinet-Handle-KNURLING-96MM-Gold Glossy,Nos
+65293f4316276a61f95c2582,Kliq,Handle,Cabinet,KNURLING,96MM,Antic Brass Matt,708,1.49,1055,8302.42.00,,Kliq-Cabinet-Handle-KNURLING-96MM-Antic Brass Matt,Nos
+65293f4416276a61f95c2584,Kliq,Handle,Cabinet,KNURLING,96MM,Grey Graphite,708,1.49,1055,8302.42.00,,Kliq-Cabinet-Handle-KNURLING-96MM-Grey Graphite,Nos
+65293f4616276a61f95c2586,Kliq,Handle,Cabinet,KNURLING,160MM,Rosegold Glossy,944,1.49,1407,8302.42.00,,Kliq-Cabinet-Handle-KNURLING-160MM-Rosegold Glossy,Nos
+65293f4716276a61f95c2588,Kliq,Handle,Cabinet,KNURLING,160MM,Gold Glossy,944,1.49,1407,8302.42.00,,Kliq-Cabinet-Handle-KNURLING-160MM-Gold Glossy,Nos
+65293f4916276a61f95c258a,Kliq,Handle,Cabinet,KNURLING,160MM,Antic Brass Matt,944,1.49,1407,8302.42.00,,Kliq-Cabinet-Handle-KNURLING-160MM-Antic Brass Matt,Nos
+65293f4b16276a61f95c258c,Kliq,Handle,Cabinet,KNURLING,160MM,Grey Graphite,944,1.49,1407,8302.42.00,,Kliq-Cabinet-Handle-KNURLING-160MM-Grey Graphite,Nos
+65293f4d16276a61f95c258e,Kliq,Handle,Cabinet,KNURLING,224MM,Rosegold Glossy,1180,1.49,1758,8302.42.00,,Kliq-Cabinet-Handle-KNURLING-224MM-Rosegold Glossy,Nos
+65293f4f16276a61f95c2590,Kliq,Handle,Cabinet,KNURLING,224MM,Gold Glossy,1180,1.49,1758,8302.42.00,,Kliq-Cabinet-Handle-KNURLING-224MM-Gold Glossy,Nos
+65293f5016276a61f95c2592,Kliq,Handle,Cabinet,KNURLING,224MM,Antic Brass Matt,1180,1.49,1758,8302.42.00,,Kliq-Cabinet-Handle-KNURLING-224MM-Antic Brass Matt,Nos
+65293f5216276a61f95c2594,Kliq,Handle,Cabinet,KNURLING,224MM,Grey Graphite,1180,1.49,1758,8302.42.00,,Kliq-Cabinet-Handle-KNURLING-224MM-Grey Graphite,Nos
+65293f5316276a61f95c2596,Kliq,Handle,Cabinet,KNURLING,288MM,Rosegold Glossy,1416,1.49,2110,8302.42.00,,Kliq-Cabinet-Handle-KNURLING-288MM-Rosegold Glossy,Nos
+65293f5516276a61f95c2598,Kliq,Handle,Cabinet,KNURLING,288MM,Gold Glossy,1416,1.49,2110,8302.42.00,,Kliq-Cabinet-Handle-KNURLING-288MM-Gold Glossy,Nos
+65293f5616276a61f95c259a,Kliq,Handle,Cabinet,KNURLING,288MM,Antic Brass Matt,1416,1.49,2110,8302.42.00,,Kliq-Cabinet-Handle-KNURLING-288MM-Antic Brass Matt,Nos
+65293f5816276a61f95c259c,Kliq,Handle,Cabinet,KNURLING,288MM,Grey Graphite,1416,1.49,2110,8302.42.00,,Kliq-Cabinet-Handle-KNURLING-288MM-Grey Graphite,Nos
+65293f5a16276a61f95c259e,Kliq,Handle,Cabinet,CH 300,4'',Rosegold Glossy,1180,1.49,1758,8302.42.00,,Kliq-Cabinet-Handle-CH 300-4''-Rosegold Glossy,Nos
+65293f5c16276a61f95c25a0,Kliq,Handle,Cabinet,CH 300,4'',Gold Glossy,1180,1.49,1758,8302.42.00,,Kliq-Cabinet-Handle-CH 300-4''-Gold Glossy,Nos
+65293f5d16276a61f95c25a2,Kliq,Handle,Cabinet,CH 300,4'',Rosegold Glossy+GOLD GIOSSY [LEG],1180,1.49,1758,8302.42.00,,Kliq-Cabinet-Handle-CH 300-4''-Rosegold Glossy+GOLD GIOSSY [LEG],Nos
+65293f5f16276a61f95c25a4,Kliq,Handle,Cabinet,CH 300,4'',Black Graphite+GOLD GIOSSY[LEG],1180,1.49,1758,8302.42.00,,Kliq-Cabinet-Handle-CH 300-4''-Black Graphite+GOLD GIOSSY[LEG],Nos
+65293f6016276a61f95c25a6,Kliq,Handle,Cabinet,CH 300,6'',Rosegold Glossy,1770,1.49,2637,8302.42.00,,Kliq-Cabinet-Handle-CH 300-6''-Rosegold Glossy,Nos
+65293f6216276a61f95c25a8,Kliq,Handle,Cabinet,CH 300,6'',Gold Glossy,1770,1.49,2637,8302.42.00,,Kliq-Cabinet-Handle-CH 300-6''-Gold Glossy,Nos
+65293f6416276a61f95c25aa,Kliq,Handle,Cabinet,CH 300,6'',Rosegold Glossy+GOLD GIOSSY [LEG],1770,1.49,2637,8302.42.00,,Kliq-Cabinet-Handle-CH 300-6''-Rosegold Glossy+GOLD GIOSSY [LEG],Nos
+65293f6516276a61f95c25ac,Kliq,Handle,Cabinet,CH 300,6'',Black Graphite+GOLD GIOSSY[LEG],1770,1.49,2637,8302.42.00,,Kliq-Cabinet-Handle-CH 300-6''-Black Graphite+GOLD GIOSSY[LEG],Nos
+65293f6716276a61f95c25ae,Kliq,Handle,Cabinet,CH 300,8'',Rosegold Glossy,2360,1.49,3516,8302.42.00,,Kliq-Cabinet-Handle-CH 300-8''-Rosegold Glossy,Nos
+65293f6816276a61f95c25b0,Kliq,Handle,Cabinet,CH 300,8'',Gold Glossy,2360,1.49,3516,8302.42.00,,Kliq-Cabinet-Handle-CH 300-8''-Gold Glossy,Nos
+65293f6a16276a61f95c25b2,Kliq,Handle,Cabinet,CH 300,8'',Rosegold Glossy+GOLD GIOSSY [LEG],2360,1.49,3516,8302.42.00,,Kliq-Cabinet-Handle-CH 300-8''-Rosegold Glossy+GOLD GIOSSY [LEG],Nos
+65293f6f16276a61f95c25b4,Kliq,Handle,Cabinet,CH 300,8'',Black Graphite+GOLD GIOSSY[LEG],2360,1.49,3516,8302.42.00,,Kliq-Cabinet-Handle-CH 300-8''-Black Graphite+GOLD GIOSSY[LEG],Nos
+65293f7416276a61f95c25b6,Kliq,Handle,Cabinet,CH 300,12'',Rosegold Glossy,3540,1.49,5275,8302.42.00,,Kliq-Cabinet-Handle-CH 300-12''-Rosegold Glossy,Nos
+65293f7616276a61f95c25b8,Kliq,Handle,Cabinet,CH 300,12'',Gold Glossy,3540,1.49,5275,8302.42.00,,Kliq-Cabinet-Handle-CH 300-12''-Gold Glossy,Nos
+65293f7716276a61f95c25ba,Kliq,Handle,Cabinet,CH 300,12'',Rosegold Glossy+GOLD GIOSSY [LEG],3540,1.49,5275,8302.42.00,,Kliq-Cabinet-Handle-CH 300-12''-Rosegold Glossy+GOLD GIOSSY [LEG],Nos
+65293f7916276a61f95c25bc,Kliq,Handle,Cabinet,CH 300,12'',Black Graphite+GOLD GIOSSY[LEG],3540,1.49,5275,8302.42.00,,Kliq-Cabinet-Handle-CH 300-12''-Black Graphite+GOLD GIOSSY[LEG],Nos
+65293f7b16276a61f95c25be,Kliq,Handle,Cabinet,KQCH 500,128MM,Grey Graphite + Rosegold Glossy,1180,1.49,1758,8302.42.00,,Kliq-Cabinet-Handle-KQCH 500-128MM-Grey Graphite + Rosegold Glossy,Nos
+65293f7c16276a61f95c25c0,Kliq,Handle,Cabinet,KQCH 500,128MM,Black Matt+BLACK GLOSSY,1180,1.49,1758,8302.42.00,,Kliq-Cabinet-Handle-KQCH 500-128MM-Black Matt+BLACK GLOSSY,Nos
+65293f7f16276a61f95c25c2,Kliq,Handle,Cabinet,KQCH 500,128MM,ANTIC BRASS MATT+GOLD GLOSSY,1180,1.49,1758,8302.42.00,,Kliq-Cabinet-Handle-KQCH 500-128MM-ANTIC BRASS MATT+GOLD GLOSSY,Nos
+65293f8116276a61f95c25c4,Kliq,Handle,Cabinet,KQCH 500,160MM,Grey Graphite + Rosegold Glossy,1534,1.49,2286,8302.42.00,,Kliq-Cabinet-Handle-KQCH 500-160MM-Grey Graphite + Rosegold Glossy,Nos
+65293f8316276a61f95c25c6,Kliq,Handle,Cabinet,KQCH 500,160MM,Black Matt+BLACK GLOSSY,1534,1.49,2286,8302.42.00,,Kliq-Cabinet-Handle-KQCH 500-160MM-Black Matt+BLACK GLOSSY,Nos
+65293f8516276a61f95c25c8,Kliq,Handle,Cabinet,KQCH 500,160MM,ANTIC BRASS MATT+GOLD GLOSSY,1534,1.49,2286,8302.42.00,,Kliq-Cabinet-Handle-KQCH 500-160MM-ANTIC BRASS MATT+GOLD GLOSSY,Nos
+65293f8616276a61f95c25ca,Kliq,Handle,Cabinet,KQCH 500,244MM,Grey Graphite + Rosegold Glossy,2124,1.49,3165,8302.42.00,,Kliq-Cabinet-Handle-KQCH 500-244MM-Grey Graphite + Rosegold Glossy,Nos
+65293f8816276a61f95c25cc,Kliq,Handle,Cabinet,KQCH 500,244MM,Black Matt+BLACK GLOSSY,2124,1.49,3165,8302.42.00,,Kliq-Cabinet-Handle-KQCH 500-244MM-Black Matt+BLACK GLOSSY,Nos
+65293f8a16276a61f95c25ce,Kliq,Handle,Cabinet,KQCH 500,244MM,ANTIC BRASS MATT+GOLD GLOSSY,2124,1.49,3165,8302.42.00,,Kliq-Cabinet-Handle-KQCH 500-244MM-ANTIC BRASS MATT+GOLD GLOSSY,Nos
+65293f8c16276a61f95c25d0,Kliq,Handle,Cabinet,KQCH 500,320MM,Grey Graphite + Rosegold Glossy,3068,1.49,4571,8302.42.00,,Kliq-Cabinet-Handle-KQCH 500-320MM-Grey Graphite + Rosegold Glossy,Nos
+65293f8e16276a61f95c25d2,Kliq,Handle,Cabinet,KQCH 500,320MM,Black Matt+BLACK GLOSSY,3068,1.49,4571,8302.42.00,,Kliq-Cabinet-Handle-KQCH 500-320MM-Black Matt+BLACK GLOSSY,Nos
+65293f8f16276a61f95c25d4,Kliq,Handle,Cabinet,KQCH 500,320MM,ANTIC BRASS MATT+GOLD GLOSSY,3068,1.49,4571,8302.42.00,,Kliq-Cabinet-Handle-KQCH 500-320MM-ANTIC BRASS MATT+GOLD GLOSSY,Nos
+65293f9216276a61f95c25d6,Kliq,Handle,Cabinet,DROP,16MM,Rosegold Glossy,2789,1.49,4156,8302.42.00,,Kliq-Cabinet-Handle-DROP-16MM-Rosegold Glossy,Nos
+65293f9316276a61f95c25d8,Kliq,Handle,Cabinet,DROP,16MM,Gold Glossy,2789,1.49,4156,8302.42.00,,Kliq-Cabinet-Handle-DROP-16MM-Gold Glossy,Nos
+65293f9516276a61f95c25da,Kliq,Handle,Cabinet,DROP,16MM,Antic Brass Matt,2789,1.49,4156,8302.42.00,,Kliq-Cabinet-Handle-DROP-16MM-Antic Brass Matt,Nos
+65293f9716276a61f95c25dc,Kliq,Handle,Cabinet,DROP,16MM,Black Graphite,2789,1.49,4156,8302.42.00,,Kliq-Cabinet-Handle-DROP-16MM-Black Graphite,Nos
+65293f9816276a61f95c25de,Kliq,Handle,Cabinet,DROP,1000MM,Rosegold Glossy,8582,1.49,12787,8302.42.00,,Kliq-Cabinet-Handle-DROP-1000MM-Rosegold Glossy,Nos
+65293f9a16276a61f95c25e0,Kliq,Handle,Cabinet,DROP,1000MM,Gold Glossy,8582,1.49,12787,8302.42.00,,Kliq-Cabinet-Handle-DROP-1000MM-Gold Glossy,Nos
+65293f9e16276a61f95c25e2,Kliq,Handle,Cabinet,DROP,1000MM,Antic Brass Matt,8582,1.49,12787,8302.42.00,,Kliq-Cabinet-Handle-DROP-1000MM-Antic Brass Matt,Nos
+65293fa316276a61f95c25e4,Kliq,Handle,Cabinet,DROP,1000MM,Black Graphite,8582,1.49,12787,8302.42.00,,Kliq-Cabinet-Handle-DROP-1000MM-Black Graphite,Nos
+65293fa416276a61f95c25e6,Kliq,Handle,Cabinet,KQCH 550,1000MM,Rosegold Hairline+ROSE+ ROSE GIOSSY,7509,1.49,11188,8302.42.00,,Kliq-Cabinet-Handle-KQCH 550-1000MM-Rosegold Hairline+ROSE+ ROSE GIOSSY,Nos
+65293fa616276a61f95c25e8,Kliq,Handle,Cabinet,KQCH 550,1000MM,Gold Hairline + Gold Glossy,7509,1.49,11188,8302.42.00,,Kliq-Cabinet-Handle-KQCH 550-1000MM-Gold Hairline + Gold Glossy,Nos
+65293fa716276a61f95c25ea,Kliq,Handle,Cabinet,KQCH 550,1000MM,Antic Brass Matt + Gold Glossy,7509,1.49,11188,8302.42.00,,Kliq-Cabinet-Handle-KQCH 550-1000MM-Antic Brass Matt + Gold Glossy,Nos
+65293fab16276a61f95c25ec,Kliq,Handle,Cabinet,KQCH 550,1000MM,Black Graphite+BLACK GLOSSY,7509,1.49,11188,8302.42.00,,Kliq-Cabinet-Handle-KQCH 550-1000MM-Black Graphite+BLACK GLOSSY,Nos
+65293fac16276a61f95c25ee,Kliq,Handle,Cabinet,BALL,36'',Rosegold Graphite + Rosegold Glossy,7080,1.49,10549,8302.42.00,,Kliq-Cabinet-Handle-BALL-36''-Rosegold Graphite + Rosegold Glossy,Nos
+65293fae16276a61f95c25f0,Kliq,Handle,Cabinet,BALL,36'',Antique Brass Matt+GOLD GIOSSY,7080,1.49,10549,8302.42.00,,Kliq-Cabinet-Handle-BALL-36''-Antique Brass Matt+GOLD GIOSSY,Nos
+65293fb016276a61f95c25f2,Kliq,Handle,Cabinet,BALL,36'',Black Graphite+BLACK GLOSSY,7080,1.49,10549,8302.42.00,,Kliq-Cabinet-Handle-BALL-36''-Black Graphite+BLACK GLOSSY,Nos
+65293fb216276a61f95c25f4,Kliq,Handle,Cabinet,KQCH 91,1000MM,Rosegold Glossy,486,1.49,724,8302.42.00,,Kliq-Cabinet-Handle-KQCH 91-1000MM-Rosegold Glossy,Nos
+65293fb416276a61f95c25f6,Kliq,Handle,Cabinet,KQCH 91,1000MM,Gold Glossy,486,1.49,724,8302.42.00,,Kliq-Cabinet-Handle-KQCH 91-1000MM-Gold Glossy,Nos
+65293fb616276a61f95c25f8,Kliq,Handle,Cabinet,KQCH 91,1000MM,Grey Graphite,486,1.49,724,8302.42.00,,Kliq-Cabinet-Handle-KQCH 91-1000MM-Grey Graphite,Nos
+65293fb716276a61f95c25fa,Kliq,Handle,Cabinet,KQCH 91,1000MM,Antique Brass Matt,486,1.49,724,8302.42.00,,Kliq-Cabinet-Handle-KQCH 91-1000MM-Antique Brass Matt,Nos
+65293fb916276a61f95c25fc,Kliq,Handle,Cabinet,KQCH 91,160MM,Rosegold Glossy,698,1.49,1040,8302.42.00,,Kliq-Cabinet-Handle-KQCH 91-160MM-Rosegold Glossy,Nos
+65293fbb16276a61f95c25fe,Kliq,Handle,Cabinet,KQCH 91,160MM,Gold Glossy,698,1.49,1040,8302.42.00,,Kliq-Cabinet-Handle-KQCH 91-160MM-Gold Glossy,Nos
+65293fbc16276a61f95c2600,Kliq,Handle,Cabinet,KQCH 91,160MM,Grey Graphite,698,1.49,1040,8302.42.00,,Kliq-Cabinet-Handle-KQCH 91-160MM-Grey Graphite,Nos
+65293fbe16276a61f95c2602,Kliq,Handle,Cabinet,KQCH 91,160MM,Antique Brass Matt,698,1.49,1040,8302.42.00,,Kliq-Cabinet-Handle-KQCH 91-160MM-Antique Brass Matt,Nos
+65293fbf16276a61f95c2604,Kliq,Handle,Cabinet,KQCH 91,224MM,Rosegold Glossy,913,1.49,1360,8302.42.00,,Kliq-Cabinet-Handle-KQCH 91-224MM-Rosegold Glossy,Nos
+65293fc116276a61f95c2606,Kliq,Handle,Cabinet,KQCH 91,224MM,Gold Glossy,913,1.49,1360,8302.42.00,,Kliq-Cabinet-Handle-KQCH 91-224MM-Gold Glossy,Nos
+65293fc216276a61f95c2608,Kliq,Handle,Cabinet,KQCH 91,224MM,Grey Graphite,913,1.49,1360,8302.42.00,,Kliq-Cabinet-Handle-KQCH 91-224MM-Grey Graphite,Nos
+65293fc416276a61f95c260a,Kliq,Handle,Cabinet,KQCH 91,224MM,Antique Brass Matt,913,1.49,1360,8302.42.00,,Kliq-Cabinet-Handle-KQCH 91-224MM-Antique Brass Matt,Nos
+65293fc616276a61f95c260c,Kliq,Handle,Cabinet,KQCH 91,288MM,Rosegold Glossy,1127,1.49,1679,8302.42.00,,Kliq-Cabinet-Handle-KQCH 91-288MM-Rosegold Glossy,Nos
+65293fc816276a61f95c260e,Kliq,Handle,Cabinet,KQCH 91,288MM,Gold Glossy,1127,1.49,1679,8302.42.00,,Kliq-Cabinet-Handle-KQCH 91-288MM-Gold Glossy,Nos
+65293fc916276a61f95c2610,Kliq,Handle,Cabinet,KQCH 91,288MM,Grey Graphite,1127,1.49,1679,8302.42.00,,Kliq-Cabinet-Handle-KQCH 91-288MM-Grey Graphite,Nos
+65293fcb16276a61f95c2612,Kliq,Handle,Cabinet,KQCH 91,288MM,Antique Brass Matt,1127,1.49,1679,8302.42.00,,Kliq-Cabinet-Handle-KQCH 91-288MM-Antique Brass Matt,Nos
+65293fcd16276a61f95c2614,Kliq,Handle,Door,DROP,60'',Rosegold Glossy,38618,1.22,47114,8302.42.00,,Kliq-Door-Handle-DROP-60''-Rosegold Glossy,Nos
+65293fce16276a61f95c2616,Kliq,Handle,Door,DROP,60'',Gold Glossy,38618,1.22,47114,8302.42.00,,Kliq-Door-Handle-DROP-60''-Gold Glossy,Nos
+65293fd016276a61f95c2618,Kliq,Handle,Door,DROP,60'',Antic Brass Matt,38618,1.22,47114,8302.42.00,,Kliq-Door-Handle-DROP-60''-Antic Brass Matt,Nos
+65293fd216276a61f95c261a,Kliq,Handle,Door,DROP,60'',Black Graphite,38618,1.22,47114,8302.42.00,,Kliq-Door-Handle-DROP-60''-Black Graphite,Nos
+65293fd316276a61f95c261c,Kliq,Handle,Door,Single Leg,18'',Rosegold Graphite + Rosegold Glossy,10620,1.22,12956,8302.42.00,,Kliq-Door-Handle-Single Leg-18''-Rosegold Graphite + Rosegold Glossy,Nos
+65293fd516276a61f95c261e,Kliq,Handle,Door,Single Leg,18'',Black Graphite + Gold Glossy,10620,1.22,12956,8302.42.00,,Kliq-Door-Handle-Single Leg-18''-Black Graphite + Gold Glossy,Nos
+65293fd716276a61f95c2620,Kliq,Handle,Door,Single Leg,24'',Rosegold Graphite + Rosegold Glossy,12980,1.22,15836,8302.42.00,,Kliq-Door-Handle-Single Leg-24''-Rosegold Graphite + Rosegold Glossy,Nos
+65293fd816276a61f95c2622,Kliq,Handle,Door,Single Leg,24'',Black Graphite + Gold Glossy,12980,1.22,15836,8302.42.00,,Kliq-Door-Handle-Single Leg-24''-Black Graphite + Gold Glossy,Nos
+65293fda16276a61f95c2624,Kliq,Handle,Door,Key Hole,18'',Rosegold Glossy,7434,1.22,9069,8302.42.00,,Kliq-Door-Handle-Key Hole-18''-Rosegold Glossy,Nos
+65293fdd16276a61f95c2626,Kliq,Handle,Door,Key Hole,18'',Gold Glossy,7434,1.22,9069,8302.42.00,,Kliq-Door-Handle-Key Hole-18''-Gold Glossy,Nos
+65293fde16276a61f95c2628,Kliq,Handle,Door,Key Hole,18'',Antic Brass Matt,7434,1.22,9069,8302.42.00,,Kliq-Door-Handle-Key Hole-18''-Antic Brass Matt,Nos
+65293fe016276a61f95c262a,Kliq,Handle,Door,Key Hole,18'',Black Graphite,7434,1.22,9069,8302.42.00,,Kliq-Door-Handle-Key Hole-18''-Black Graphite,Nos
+65293fe216276a61f95c262c,Kliq,Handle,Door,Key Hole,24'',Rosegold Glossy,9912,1.22,12093,8302.42.00,,Kliq-Door-Handle-Key Hole-24''-Rosegold Glossy,Nos
+65293fe316276a61f95c262e,Kliq,Handle,Door,Key Hole,24'',Gold Glossy,9912,1.22,12093,8302.42.00,,Kliq-Door-Handle-Key Hole-24''-Gold Glossy,Nos
+65293fe516276a61f95c2630,Kliq,Handle,Door,Key Hole,24'',Antic Brass Matt,9912,1.22,12093,8302.42.00,,Kliq-Door-Handle-Key Hole-24''-Antic Brass Matt,Nos
+65293fe716276a61f95c2632,Kliq,Handle,Door,Key Hole,24'',Black Graphite,9912,1.22,12093,8302.42.00,,Kliq-Door-Handle-Key Hole-24''-Black Graphite,Nos
+65293fe916276a61f95c2634,Kliq,Handle,Door,PATTI,16'',ROSEGOLD GRAPHITE+ROSEGOLD GIOSSY,9770,1.22,11919,8302.42.00,,Kliq-Door-Handle-PATTI-16''-ROSEGOLD GRAPHITE+ROSEGOLD GIOSSY,Nos
+65293fea16276a61f95c2636,Kliq,Handle,Door,PATTI,16'',ANTIUE BRASS MATT+GOLD GIOSSY,9770,1.22,11919,8302.42.00,,Kliq-Door-Handle-PATTI-16''-ANTIUE BRASS MATT+GOLD GIOSSY,Nos
+65293fec16276a61f95c2638,Kliq,Handle,Door,PATTI,16'',BLACK GRAPHITE+ BLACK GIOSSY,9770,1.22,11919,8302.42.00,,Kliq-Door-Handle-PATTI-16''-BLACK GRAPHITE+ BLACK GIOSSY,Nos
+65293fed16276a61f95c263a,Kliq,Handle,Door,PATTI,22'',ROSEGOLD GRAPHITE+ROSEGOLD GIOSSY,13027,1.22,15893,8302.42.00,,Kliq-Door-Handle-PATTI-22''-ROSEGOLD GRAPHITE+ROSEGOLD GIOSSY,Nos
+65293fef16276a61f95c263c,Kliq,Handle,Door,PATTI,22'',ANTIUE BRASS MATT+GOLD GIOSSY,13027,1.22,15893,8302.42.00,,Kliq-Door-Handle-PATTI-22''-ANTIUE BRASS MATT+GOLD GIOSSY,Nos
+65293ff116276a61f95c263e,Kliq,Handle,Door,PATTI,22'',BLACK GRAPHITE+ BLACK GIOSSY,13027,1.22,15893,8302.42.00,,Kliq-Door-Handle-PATTI-22''-BLACK GRAPHITE+ BLACK GIOSSY,Nos
+65293ff216276a61f95c2640,Kliq,Handle,Door,KQMD 90,18'',Rosegold Graphite + Rosegold Glossy,9655,1.22,11779,8302.42.00,,Kliq-Door-Handle-KQMD 90-18''-Rosegold Graphite + Rosegold Glossy,Nos
+65293ff416276a61f95c2642,Kliq,Handle,Door,KQMD 90,18'',Antique Brass + Gold Glossy,9655,1.22,11779,8302.42.00,,Kliq-Door-Handle-KQMD 90-18''-Antique Brass + Gold Glossy,Nos
+65293ff616276a61f95c2644,Kliq,Handle,Door,KQMD 90,18'',Black Graphite + Black Glossy,9655,1.22,11779,8302.42.00,,Kliq-Door-Handle-KQMD 90-18''-Black Graphite + Black Glossy,Nos
+65293ff716276a61f95c2646,Kliq,Handle,Door,KQMD 90,24'',Rosegold Graphite + Rosegold Glossy,11800,1.22,14396,8302.42.00,,Kliq-Door-Handle-KQMD 90-24''-Rosegold Graphite + Rosegold Glossy,Nos
+65293ff916276a61f95c2648,Kliq,Handle,Door,KQMD 90,24'',Antique Brass + Gold Glossy,11800,1.22,14396,8302.42.00,,Kliq-Door-Handle-KQMD 90-24''-Antique Brass + Gold Glossy,Nos
+65293ffb16276a61f95c264a,Kliq,Handle,Door,KQMD 90,24'',Black Graphite + Black Glossy,11800,1.22,14396,8302.42.00,,Kliq-Door-Handle-KQMD 90-24''-Black Graphite + Black Glossy,Nos
+65293ffe16276a61f95c264c,Kliq,Handle,Door,MOP,12'',Rosegold Graphite,6372,1.22,7774,8302.42.00,,Kliq-Door-Handle-MOP-12''-Rosegold Graphite,Nos
+6529400116276a61f95c264e,Kliq,Handle,Door,MOP,12'',Gold Glossy,6372,1.22,7774,8302.42.00,,Kliq-Door-Handle-MOP-12''-Gold Glossy,Nos
+6529400316276a61f95c2650,Kliq,Handle,Door,MOP,18'',Rosegold Graphite,9558,1.22,11661,8302.42.00,,Kliq-Door-Handle-MOP-18''-Rosegold Graphite,Nos
+6529400516276a61f95c2652,Kliq,Handle,Door,MOP,18'',Gold Glossy,9558,1.22,11661,8302.42.00,,Kliq-Door-Handle-MOP-18''-Gold Glossy,Nos
+6529400616276a61f95c2654,Kliq,Handle,Door,MOP,24'',Rosegold Graphite,12744,1.22,15548,8302.42.00,,Kliq-Door-Handle-MOP-24''-Rosegold Graphite,Nos
+6529400816276a61f95c2656,Kliq,Handle,Door,MOP,24'',Gold Glossy,12744,1.22,15548,8302.42.00,,Kliq-Door-Handle-MOP-24''-Gold Glossy,Nos
+6529400916276a61f95c2658,Kliq,Furniture,Legs,KQSL,6'',Rosegold Glossy,3540,1.49,5275,8302.42.00,,Kliq-Legs-Furniture-KQSL-6''-Rosegold Glossy,Nos
+6529401116276a61f95c265a,Kliq,Furniture,Legs,KQSL,6'',Gold Glossy,3540,1.49,5275,8302.42.00,,Kliq-Legs-Furniture-KQSL-6''-Gold Glossy,Nos
+6529401616276a61f95c265c,Kliq,Furniture,Legs,KQSL,6'',Black Graphite,3540,1.49,5275,8302.42.00,,Kliq-Legs-Furniture-KQSL-6''-Black Graphite,Nos
+6529401b16276a61f95c265e,Kliq,Furniture,Legs,KQSL,6'',SS Matt,3540,1.49,5275,8302.42.00,,Kliq-Legs-Furniture-KQSL-6''-SS Matt,Nos
+6529401d16276a61f95c2660,Kliq,Furniture,Legs,KQSL,6'',Chrome,3540,1.49,5275,8302.42.00,,Kliq-Legs-Furniture-KQSL-6''-Chrome,Nos
