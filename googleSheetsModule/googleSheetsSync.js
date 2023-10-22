@@ -21,6 +21,7 @@ const path = require("path");
 
 const googleSheetsSync = async (spreadsheetId) => {
   const companySheetData = await main(spreadsheetId);
+  console.log("GOT SHEET DATA");
   const { auth, googleSheets, fileName, rows } = companySheetData;
 
   let firstDownload = false;

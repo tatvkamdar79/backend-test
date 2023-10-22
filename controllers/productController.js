@@ -16,12 +16,14 @@ exports.getProductBySearch = async (req, res) => {
   let startTime = process.hrtime();
   if (searchString.includes("|")) {
     const separatedSearchString = searchString.split("|");
-    if (separatedSearchString.length === 2) {
+    if (separatedSearchString.length === 3) {
       const company = searchString.split("|")[0];
       const modelNumber = searchString.split("|")[1];
+      const group = searchString.split("|")[2];
       searchResult = await Product.find({
         company: company,
         modelNumber: modelNumber,
+        group: group,
       });
     }
   } else {

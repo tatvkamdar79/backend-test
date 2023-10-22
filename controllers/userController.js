@@ -21,7 +21,7 @@ exports.addUser = async (req, res) => {
   if (!username || !password) {
     return sendError(res, "Please Fill All Fields");
   }
-  const user = await User.findOne({ username: username, password: password });
+  const user = await User.findOne({ username: username });
   if (!user) {
     try {
       const newUser = new User({ username, password });
