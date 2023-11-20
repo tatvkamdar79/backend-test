@@ -21,6 +21,7 @@ const path = require("path");
 
 const googleSheetsSync = async (spreadsheetId) => {
   const companySheetData = await main(spreadsheetId);
+  console.log("companySheetData", companySheetData);
   console.log("GOT SHEET DATA");
   const { auth, googleSheets, fileName, rows } = companySheetData;
 
@@ -112,8 +113,7 @@ const googleSheetsSync = async (spreadsheetId) => {
 exports.syncGS = async (req, res) => {
   if (lock === true) {
     console.log("Blocked Request");
-    sendSuccess(res, "Let Earlier Request Complete");
-    return;
+    return sendSuccess(res, "Let Earlier Request Complete");
   } else {
     lock = true;
     try {
@@ -126,10 +126,12 @@ exports.syncGS = async (req, res) => {
           await googleSheetsSync(spreadsheetId);
         }
         await new Promise((resolve) => setTimeout(resolve, 2000)); // Wait for 5000ms
-        sendSuccess(res, "released");
+        return sendSuccess(res, "Sheets Synced");
+        // sendSuccess(res, "Lock released");
       }
     } catch (error) {
-      sendError(res, error.message, error);
+      // console.log("error", error);
+      return sendError(res, error.message, error);
     } finally {
       lock = false;
     }
