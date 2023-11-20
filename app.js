@@ -19,6 +19,7 @@ const qrCodeRoutes = require("./routes/qrCodeRoutes");
 const companyRoutes = require("./routes/companyRoutes");
 const adminRoutes = require("./routes/adminRoutes");
 const googleSheetsRoutes = require("./routes/googleSheetsRoutes");
+const { default: axios } = require("axios");
 
 app.use((req, res, next) => {
   res.setHeader("Access-Control-Allow-Origin", "*"); // Allow requests from any origin (not recommended in production)
@@ -29,6 +30,17 @@ app.use((req, res, next) => {
 
 app.get("/", (req, res) => {
   res.json({ live: true, lol: false });
+});
+
+app.post("/send_quotation", async (req, res) => {
+  const { phone_number, message } = req.body;
+  console.log(phone_number, message);
+  const response = await axios.post(
+    "http://localhost:5000/send_quotation",
+    { phone_number: phone_number, message: message }
+  );
+  console.log(response.data);
+  res.json({});
 });
 
 app.use("/user", userRoutes);

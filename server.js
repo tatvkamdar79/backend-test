@@ -6,8 +6,12 @@ const options = {
   key: fs.readFileSync("localhost-key.pem"),
   cert: fs.readFileSync("localhost.pem"),
 };
+const cf_options = {
+  key: fs.readFileSync("cf-key.pem"),
+  cert: fs.readFileSync("cf.pem"),
+};
 
-const server = https.createServer(options, app);
+const server = https.createServer(cf_options, app);
 
 const PORT = 8080;
 const LOCAL_IP = "192.168.0.109";
