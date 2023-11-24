@@ -21,22 +21,29 @@ const path = require("path");
 
 const googleSheetsSync = async (spreadsheetId) => {
   const companySheetData = await main(spreadsheetId);
-  console.log("companySheetData", companySheetData);
+  // console.log("companySheetData", companySheetData);
   console.log("GOT SHEET DATA");
   const { auth, googleSheets, fileName, rows } = companySheetData;
+  console.log(rows.length);
 
   let firstDownload = false;
+  // console.log(
+  //   "doesLocalGoogleSheetCopyExist",
+  //   doesLocalGoogleSheetCopyExist(fileName)
+  // );
   if (!doesLocalGoogleSheetCopyExist(fileName)) {
     firstDownload = true;
   }
 
   // Validating Sheet Rows
   const errors = validateSheetRowData(rows);
+  console.log("errors", errors);
 
   if (errors.length > 0) return errors;
 
   // Converting Rows From CSV(Array of Arrays) to JSON
   const sheetRowsJson = rows2json(rows);
+  console.log("sheetRowsJson", sheetRowsJson);
 
   const localDataArray = await realLocalCsvFileData(spreadsheetId, fileName);
   const localRowsJson = rows2json(localDataArray);
@@ -62,6 +69,8 @@ const googleSheetsSync = async (spreadsheetId) => {
         }
       }
     }
+    console.log(`DOWNLOADING ${fileName} FIRST TIME NOW`);
+    await downloadGoogleSheet(spreadsheetId, fileName);
     console.log("PROCESS FININSHED");
     return;
   }
@@ -130,7 +139,7 @@ exports.syncGS = async (req, res) => {
         // sendSuccess(res, "Lock released");
       }
     } catch (error) {
-      // console.log("error", error);
+      console.log("error", error);
       return sendError(res, error.message, error);
     } finally {
       lock = false;

@@ -30,10 +30,12 @@ const main = async (spreadsheetId) => {
   // console.log("client", client);
   const googleSheets = await google.sheets({ version: "v4", auth: client });
   //   console.log("googleSheets", googleSheets.spreadsheets);
+  console.log("NOW SEARCHING FOR FILE...");
   const metaData = await googleSheets.spreadsheets.get({
     auth: auth,
     spreadsheetId: spreadsheetId,
   });
+  console.log("GOT FILE");
 
   const fileName = getFileName(metaData);
   const allSheetProps = getAllSheetProperties(metaData);

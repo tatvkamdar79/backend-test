@@ -44,15 +44,16 @@ module.exports.validateSheetRowData = (sheetRows) => {
     return errors;
   }
 
-  const headers = sheetRows[0];
+  const headers = sheetRows[0].map((str) => str.trim());
+  console.log(headers);
   const invalidHeaders = [];
   for (let header of headers) {
-    if (!ALLOWED_HEADERS.includes(header)) {
+    if (!ALLOWED_HEADERS.includes(header.trim())) {
       invalidHeaders.push(header);
     }
   }
   if (invalidHeaders.length > 0) {
-    errorMessage = "Inavlid Headers Found - " + invalidHeaders.join(", ");
+    errorMessage = "Inavlid Headers Found - <" + invalidHeaders.join(",") + ">";
     errors.push(errorMessage);
     return errors;
   }

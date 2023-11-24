@@ -20,14 +20,16 @@ module.exports.rows2json = (sheetRows) => {
     const variant = {};
 
     for (let j = 0; j < sheetHeaders.length; j++) {
-      const header = sheetHeaders[j];
+      const header = sheetHeaders[j].trim();
       if (SKIPPABLE.includes(header)) continue;
       if (VARIANT_FILEDS.includes(header)) {
-        variant[header] = sheetRows[i][j];
+        variant[header] = String(sheetRows[i][j]).trim();
       } else if (NUMBER_FIELDS.includes(header)) {
-        currentRow[header] = parseFloat(sheetRows[i][j]);
+        currentRow[header] = parseFloat(
+          String(sheetRows[i][j]).trim().replace(/,/g, "")
+        );
       } else {
-        currentRow[header] = sheetRows[i][j];
+        currentRow[header] = String(sheetRows[i][j]).trim();
       }
     }
     if (Object.keys(variant).length > 0) currentRow["variant"] = variant;
